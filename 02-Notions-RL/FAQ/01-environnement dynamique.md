@@ -1,4 +1,9 @@
 
+-------------------------------------
+# Environnement dynamique (rappel):
+-------------------------------------
+
+
 Un **environnement dynamique** est un environnement qui **change constamment** ou **évolue au fil du temps**, souvent de manière imprévisible. Dans le contexte de l'apprentissage par renforcement (RL) ou de l'intelligence artificielle (IA), cela signifie que les règles, les conditions, ou les états de l'environnement dans lequel l'agent évolue ne restent pas fixes, et peuvent varier en fonction de plusieurs facteurs.
 
 ### Exemple d'un environnement dynamique :
@@ -20,3 +25,16 @@ Imagine que tu joues à un jeu vidéo où le **niveau change constamment**. Les 
 Dans un **environnement statique**, tout est **fixe**. Les règles et les conditions ne changent pas une fois que l'agent commence à agir. Par exemple, un puzzle ou un jeu de société comme les échecs peut être considéré comme statique, car les pièces sur l'échiquier ne bougent que lorsque le joueur prend une décision.
 
 Un environnement dynamique demande à l'agent de **s'adapter** constamment, ce qui rend l'apprentissage et la prise de décision plus compliqués mais aussi plus proches des défis du **monde réel**.
+
+-------------------------------------
+# Pour résumer :
+-------------------------------------
+
+Un **environnement dynamique** dans le contexte de l'apprentissage par renforcement est un cadre où les conditions et les états peuvent changer de manière imprévisible au fil du temps. Cela signifie que l'agent doit continuellement s'adapter aux nouvelles situations pour maximiser ses récompenses. Voici quelques caractéristiques clés :
+
+- **Changement continu** : Les états de l'environnement évoluent, influencés par les actions de l'agent et d'autres facteurs externes.
+- **Incertain et imprévisible** : Les résultats des actions ne sont pas toujours déterminés à l'avance, nécessitant que l'agent apprenne à gérer l'incertitude.
+- **Réactivité nécessaire** : L'agent doit être capable de réagir rapidement aux changements pour maintenir ou améliorer ses performances.
+
+Dans un environnement dynamique, l'agent doit non seulement apprendre quelles actions mènent à des récompenses positives, mais aussi ajuster sa stratégie en fonction des modifications continues de l'environnement. Cela rend le processus d'apprentissage plus complexe mais aussi plus réaliste, car de nombreux systèmes réels fonctionnent dans des environnements dynamiques.
+
