@@ -1,4 +1,6 @@
+------------------------------------------------------------------
 # Exercices sur les utilités infinies
+------------------------------------------------------------------
 
 1. **Exercice de réflexion :**
    - Imaginez un jeu où un agent reçoit une récompense de +1 à chaque étape sans fin. Pourquoi est-il problématique de calculer l'utilité totale sans ajustement ? Proposez une solution.
