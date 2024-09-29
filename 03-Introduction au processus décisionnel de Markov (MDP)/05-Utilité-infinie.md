@@ -4,17 +4,17 @@
 
 
 
-L'image traite du problème des **récompenses infinies** dans un environnement où une tâche ou un jeu pourrait durer indéfiniment. Voici une explication des concepts présentés :
+L'image ci-haut du problème des **récompenses infinies** dans un environnement où une tâche ou un jeu pourrait durer indéfiniment. 
 
-## **Problème**
+# **Problème**
 
 - **Jeu infini** : Si le jeu ou la tâche ne se termine jamais, comment éviter que les récompenses cumulatives deviennent infinies ?
 
-## **Solutions**
+# **Solutions**
 
 1. **Horizon fini** :
    - Terminer les épisodes après un nombre fixe de pas (T).
-   - Cela peut entraîner des politiques non stationnaires, car la stratégie dépend du temps restant.
+   - Cela peut entraîner des politiques non stationnaires (voir Annexe01), car la stratégie dépend du temps restant.
 
 2. **Actualisation (Discounting)** :
    - Utiliser un facteur d'actualisation $$\gamma$$ (0 < $$\gamma$$ < 1) pour réduire l'impact des récompenses futures.
@@ -24,16 +24,11 @@ L'image traite du problème des **récompenses infinies** dans un environnement 
 3. **État absorbant** :
    - Assurer qu'un état terminal soit éventuellement atteint pour chaque politique, garantissant ainsi une fin à la tâche.
 
-Ces solutions aident à gérer les défis posés par les environnements potentiellement infinis en contrôlant la manière dont les récompenses sont accumulées et évaluées au fil du temps.
-
-Citations:
-[1] https://pplx-res.cloudinary.com/image/upload/v1727640368/user_uploads/kpbmnioix/image.jpg
-[2] https://pplx-res.cloudinary.com/image/upload/v1727641304/user_uploads/tdkhuzpej/image.jpg
-[3] https://pplx-res.cloudinary.com/image/upload/v1727613605/user_uploads/hcfpzigin/image.jpg
 
 
-
-
+------------------------------------------------
+# Annexe 01
+------------------------------------------------
 
 Dans le cadre de l'apprentissage par renforcement (Reinforcement Learning, RL), un "jeu infini" signifie que la tâche ou l'environnement n'a pas de fin, c'est-à-dire qu'il n'y a pas de moment où l'agent sort ou termine l'épisode. Cela pose un problème car, si le but est de maximiser les **récompenses cumulatives** (les récompenses obtenues au fil du temps), elles pourraient devenir infinies si l'agent agit indéfiniment.
 
