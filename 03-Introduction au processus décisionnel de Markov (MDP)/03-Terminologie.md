@@ -2,6 +2,10 @@
 # **Table des termes en Apprentissage par Renforcement (RL)**
 -----------------------------------------------------------------------------
 
+![image](https://github.com/user-attachments/assets/34d38192-2ad9-4893-87d7-fb2a7ad8e0d0)
+
+
+
 | **Terme**      | **Définition**                                                                 | **Exemple / Explication**                                                                                                                                                                      |
 |----------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Agent**      | L'entité qui prend des décisions dans l'environnement.                                                             | Un robot, une voiture autonome ou une IA qui prend des actions dans un jeu vidéo.                                                                                                              |
