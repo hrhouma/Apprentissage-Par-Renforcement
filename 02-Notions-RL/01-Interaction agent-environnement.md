@@ -20,24 +20,24 @@ Dans un cadre d'apprentissage par renforcement, les notions clés à comprendre 
 # **A. États (States)** :
 Un état représente une configuration ou une situation dans laquelle se trouve l'agent à un moment donné dans l'environnement.
 
-- **Dans l'image** : Chaque case est un état. Par exemple, le robot commence dans l'état \((1, 1)\) (en bas à gauche).
+- **Dans l'image** : Chaque case est un état. Par exemple, le robot commence dans l'état (1, 1) (en bas à gauche).
 
 # **B. Actions (Actions)** :
 Une action est une décision prise par l'agent dans un état donné. Les actions permettent à l'agent de se déplacer dans l'environnement ou d'interagir avec lui.
 
-- **Dans l'image** : L'agent peut se déplacer vers la **gauche**, la **droite**, le **haut**, ou le **bas** à partir de sa position actuelle. Par exemple, s'il est dans l'état (3, 1), il peut choisir de se déplacer vers la droite (3, 2) ou vers le haut (3, 3).
+- **Dans l'image** : L'agent peut se déplacer vers la **gauche**, la **droite**, le **haut**, ou le **bas** à partir de sa position actuelle. Par exemple, s'il est dans l'état (1, 3), il peut choisir de se déplacer vers la droite (1, 4) ou vers le haut (2, 3) ou à gauche (1, 2).
 
 # **C. Récompenses (Rewards)** :
 Les récompenses sont des retours de l'environnement après qu'une action a été prise. Elles peuvent être positives (gain) ou négatives (perte). Elles guident l'agent pour qu'il apprenne à maximiser les bonnes décisions.
 
 - **Dans l'image** :
-  - La case (4, 3) contient une récompense de **+1**.
-  - La case (4, 2) contient une pénalité de **-1**.
+  - La case (3, 4) contient une récompense de **+1**.
+  - La case (2, 4) contient une pénalité de **-1**.
 
 # **D. Transitions (Transitions)** :
 Les transitions décrivent le passage d'un état à un autre en fonction de l'action choisie. Dans des environnements plus complexes, les transitions peuvent être probabilistiques, mais dans cet exemple, elles sont déterministes (chaque action mène toujours à un état spécifique).
 
-- **Dans l'image** : Si l'agent est en (3, 1) et qu'il choisit d'aller vers le haut, il passera à l'état (3, 2).
+- **Dans l'image** : Si l'agent est en (1, 3) et qu'il choisit d'aller vers le haut, il passera à l'état (2, 3).
 
 ---
 
@@ -49,13 +49,13 @@ Un épisode en apprentissage par renforcement représente une séquence d'intera
 
 Supposons que l'agent commence dans l'état (1, 1) :
 
-1. **Étape 1 :** L'agent est en (1, 1). Il choisit de se déplacer vers le **haut** pour aller à (2, 1).
+1. **Étape 1 :** L'agent est en (1, 1). Il choisit de se déplacer vers le **droite** pour aller à (2, 1).
    - Récompense : Aucune récompense pour cette action.
   
-2. **Étape 2 :** L'agent est en (2, 1). Il choisit de se déplacer vers la **droite** pour aller à (3, 1).
+2. **Étape 2 :** L'agent est en (2, 1). Il choisit de se déplacer vers le **droite** pour aller à (3, 1).
    - Récompense : Aucune récompense pour cette action.
 
-3. **Étape 3 :** L'agent est en (3, 1). Il choisit de se déplacer vers le **haut** pour aller à (3, 2).
+3. **Étape 3 :** L'agent est en (3, 1). Il choisit de se déplacer vers la **haut** pour aller à (3, 2).
    - Récompense : Aucune récompense pour cette action, mais l'agent se rapproche de la pénalité.
 
 4. **Étape 4 :** L'agent est en (3, 2). Il choisit de se déplacer vers la **droite** pour aller à (4, 2).
@@ -65,11 +65,12 @@ Supposons que l'agent commence dans l'état (1, 1) :
    - Récompense : L'agent reçoit une récompense de **+1**.
 
 # **B. Stratégie de l'agent** :
-À chaque épisode, l'agent apprend des actions qu'il a prises et des récompenses qu'il a reçues. Grâce à l'apprentissage, il pourrait modifier sa stratégie pour éviter la pénalité et se diriger plus rapidement vers la récompense (4, 3).
+- À chaque épisode, l'agent apprend des actions qu'il a prises et des récompenses qu'il a reçues. 
+- Grâce à l'apprentissage, il pourrait modifier sa stratégie pour éviter la pénalité et se diriger plus rapidement vers la récompense (4, 3).
 
 ---
 
-## **3. Concept de Politique (Policy)**
+# **3. Concept de Politique (Policy)**
 
 La **politique** est une stratégie que l'agent développe pour choisir la meilleure action à chaque état. Par exemple, l'agent peut apprendre à éviter la case \((4, 2)\) car elle a une récompense négative.
 
