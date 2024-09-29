@@ -3,6 +3,9 @@
 En réalité, **l'apprentissage par renforcement** (ou RL) est déjà utilisé dans **beaucoup d'applications du monde réel**, et pas seulement dans les jeux vidéo ! 
 Je vous énumère quelques exemples concrets et intéressants pour te montrer à quel point cette technologie est puissante et présente dans notre quotidien :
 
+![image](https://github.com/user-attachments/assets/7999be88-de51-4b53-aa3f-43f42b8ecda9)
+
+
 # 1. **Les Jeux Vidéo et les IA de Jeu**
 C'est vrai que les jeux sont l'un des exemples les plus populaires d'utilisation du RL. Par exemple, l'IA de **Google DeepMind** a battu des champions humains dans des jeux comme **Go** ou **StarCraft II**. Dans ces cas, l'IA apprend à jouer au jeu en répétant des parties encore et encore, cherchant toujours à améliorer ses stratégies pour gagner.
 
