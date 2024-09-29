@@ -79,3 +79,4 @@ Dans le cadre de l'apprentissage par renforcement, les agents interagissent avec
 
 L'objectif en RL est que l'agent apprenne à **prendre des décisions optimales** dans un environnement, qu'il soit dynamique, statique, stochastique ou non-déterministe. Il apprend en testant différentes actions et en recevant un feedback sous forme de récompenses ou de pénalités pour améliorer ses futures actions.
 
+# Annexe obligatoire ==> Travail en groupe FAQ
