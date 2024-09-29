@@ -1,5 +1,7 @@
-# **Quiz : Comprendre les États, Actions, et Récompenses dans l'Apprentissage par Renforcement**
+# **Quiz 1 : Comprendre les États, Actions, et Récompenses dans l'Apprentissage par Renforcement**
 
+- Théorie : Voir la partie 02-Notions-au-RL (FAQ)
+  
 #### **Question 1 : États**
 **Mise en situation** : Un robot se trouve dans un entrepôt. Il peut se déplacer dans différentes zones de stockage pour chercher des boîtes. Chaque zone de l'entrepôt est définie par une position unique.
 
