@@ -1,4 +1,6 @@
-# **Quiz 1 : Comprendre les États, Actions, et Récompenses dans l'Apprentissage par Renforcement**
+------------------------------------------------------------------
+# **Quiz : Comprendre les États, Actions, et Récompenses dans l'Apprentissage par Renforcement**
+------------------------------------------------------------------
 
 - Théorie : Voir la partie 02-Notions-au-RL (FAQ)
   
