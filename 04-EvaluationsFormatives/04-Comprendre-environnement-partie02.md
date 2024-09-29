@@ -1,5 +1,5 @@
 ------------------------------------------------------------------
-# Quiz 2 sur les types d'environnements
+# Quiz sur les types d'environnements
 ------------------------------------------------------------------
 
 1. **Qu'est-ce qu'un environnement déterministe ?**
