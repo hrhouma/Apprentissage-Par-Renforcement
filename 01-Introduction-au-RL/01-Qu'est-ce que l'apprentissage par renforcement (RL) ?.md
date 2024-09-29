@@ -2,6 +2,9 @@
 
 L'apprentissage par renforcement est une technique d'apprentissage automatique basée sur le feedback dans laquelle un agent apprend à se comporter dans un environnement en effectuant des actions et en observant les résultats de ces actions. Pour chaque bonne action, l'agent reçoit une récompense positive, et pour chaque mauvaise action, il reçoit une pénalité ou un feedback négatif.
 
+![image](https://github.com/user-attachments/assets/a92461f6-0803-4433-a24e-ba6e283c13d0)
+
+
 # Principes de base :
 1. **Processus d'essai et d'erreur** : L'agent interagit avec l'environnement sans intervention humaine directe et améliore ses performances en obtenant des récompenses positives. Il apprend ce qui fonctionne bien et ce qui ne fonctionne pas.
    
