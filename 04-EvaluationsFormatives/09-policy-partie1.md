@@ -1,4 +1,6 @@
+----------------------------------------------
 # Quiz sur la Policy
+----------------------------------------------
 
 1. **Qu'est-ce qu'une policy dans le contexte du RL ?**
    - a) Une fonction qui détermine l'action à choisir pour chaque état
