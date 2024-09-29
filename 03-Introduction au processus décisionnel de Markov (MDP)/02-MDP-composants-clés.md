@@ -1,6 +1,12 @@
-Les **processus de décision markoviens** (MDP) sont un cadre mathématique utilisé pour modéliser la prise de décision dans des environnements stochastiques. Ils sont fondamentaux pour l'apprentissage par renforcement. Voici une introduction aux concepts clés des MDP :
+----------------------------------------------------------
+# MDP (processus de décision markoviens)
+----------------------------------------------------------
 
-## **Composants d'un MDP**
+- Les **processus de décision markoviens** (MDP) sont un cadre mathématique utilisé pour modéliser la prise de décision dans des environnements ***stochastiques***. Ils sont fondamentaux pour l'apprentissage par renforcement. Voici une introduction aux concepts clés des MDP :
+
+----------------------------------------------------------
+# **Composants d'un MDP**
+----------------------------------------------------------
 
 1. **États (S)** : Représentent les différentes situations possibles dans lesquelles l'agent peut se trouver.
 
@@ -12,7 +18,9 @@ Les **processus de décision markoviens** (MDP) sont un cadre mathématique util
 
 5. **Politique ($$\pi$$)** : Stratégie que l'agent utilise pour choisir ses actions en fonction des états. L'objectif est de trouver la politique optimale $$\pi^*$$ qui maximise la récompense cumulative attendue.
 
-## **Propriété de Markov**
+----------------------------------------------------------
+# **Propriété de Markov**
+----------------------------------------------------------
 
 La propriété de Markov stipule que le futur état dépend uniquement de l'état actuel et de l'action choisie, et non des états ou actions précédents. Cela simplifie le processus de modélisation en ne nécessitant que l'état courant pour prendre des décisions.
 
