@@ -19,6 +19,19 @@
 
 
 # 3 - Voir la silde 11
+# 4 - Voir les problèmes avec les utilités (Slide 15)
+
+- Ces dispositives fournissent des informations sur l'apprentissage par renforcement (RL) et les défis liés aux récompenses infinies dans des environnements où le jeu ou la tâche pourrait durer indéfiniment.
+
+## **Infinite Utilities**
+
+- **Problème** : Si un jeu ou une tâche dure éternellement, comment gérer les récompenses infinies ?
+  
+- **Solutions** :
+  - **Horizon fini** : Terminer les épisodes après un nombre fixe de pas pour éviter des politiques non stationnaires.
+  - **Actualisation (Discounting)** : Utiliser un facteur d'actualisation $$\gamma$$ (0 < $$\gamma$$ < 1) pour donner plus d'importance aux récompenses immédiates et réduire l'impact des récompenses futures. Cela aide à calculer une valeur cumulative finie.
+  - **État absorbant** : Garantir qu'un état terminal soit éventuellement atteint pour chaque politique.
+
 
 En résumé, l'apprentissage par renforcement est crucial pour développer des systèmes autonomes capables de s'adapter et d'apprendre dans des environnements dynamiques et incertains.
 
