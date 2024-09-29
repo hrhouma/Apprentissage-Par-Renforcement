@@ -69,3 +69,29 @@ L'apprentissage par renforcement est utilisé dans divers domaines tels que :
   - Risque de surapprentissage si le système est trop optimisé pour certaines tâches spécifiques.
 
 L'apprentissage par renforcement continue d'évoluer et joue un rôle crucial dans le développement de systèmes intelligents capables de s'adapter et d'apprendre de manière autonome.
+
+------------------------------------------
+# Pour résumer :
+------------------------------------------
+
+## **Apprentissage par renforcement**
+
+- **Définition** : Technique d'apprentissage automatique où un agent apprend en interagissant avec l'environnement, recevant des récompenses positives pour de bonnes actions et des pénalités pour les mauvaises.
+  
+- **Processus** :
+  - L'agent explore l'environnement par essais et erreurs.
+  - Il apprend à maximiser les récompenses positives au fil du temps.
+
+- **Exemple** : Un agent IA dans un labyrinthe cherche un diamant. Il prend des actions, change d'état, et reçoit des feedbacks sous forme de récompenses ou pénalités, apprenant ainsi à naviguer efficacement.
+
+Ces concepts sont essentiels pour comprendre comment concevoir des agents capables de prendre des décisions optimales dans des environnements complexes et dynamiques.
+
+----------------------------------------------
+# Références : 
+----------------------------------------------
+
+- https://www.javatpoint.com/reinforcement-learning#google_vignette
+- https://www.youtube.com/watch?v=9JZID-h6ZJ0&ab_channel=CodeEmporium
+- https://www.youtube.com/watch?app=desktop&v=3Rx2x2traxw&ab_channel=MaheshHuddar
+
+
