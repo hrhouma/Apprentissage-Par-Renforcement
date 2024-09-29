@@ -45,6 +45,9 @@ Le besoin d'utiliser l'apprentissage par renforcement (Reinforcement Learning, R
 | **Environnement**                 | **Statique**, avec un ensemble de données fixe.               | **Statique**, les données ne changent pas en temps réel.      | **Dynamique**, l'environnement évolue en fonction des actions de l'agent.  |
 | **Récompense**                     | Pas de notion de récompense.                                 | Pas de notion de récompense.                                 | **Récompense** attribuée à chaque étape pour guider l'apprentissage (positive ou négative). |
 
+
+![image](https://github.com/user-attachments/assets/3298ae14-bc00-4e33-a705-5d92a6223f46)
+
 ### Exemples d'**environnements dynamiques** où le RL est pertinent :
 1. **Conduite Autonome** : 
    - L'environnement est la route, les piétons, les feux de circulation, et les autres véhicules. Les décisions du véhicule influencent l'état futur (ralentir pour éviter une collision, accélérer pour ne pas gêner le trafic).
