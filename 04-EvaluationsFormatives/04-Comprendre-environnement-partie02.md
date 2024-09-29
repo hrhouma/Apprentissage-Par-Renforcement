@@ -1,4 +1,6 @@
+------------------------------------------------------------------
 # Quiz 2 sur les types d'environnements
+------------------------------------------------------------------
 
 1. **Qu'est-ce qu'un environnement déterministe ?**
    - a) Un environnement où une action donnée produit toujours le même résultat
