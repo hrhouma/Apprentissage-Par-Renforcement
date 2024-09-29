@@ -18,7 +18,7 @@
 - **Stratégies optimales** : En apprenant quelles actions mènent aux meilleures récompenses cumulatives, l'agent développe une stratégie optimale pour naviguer dans son environnement.
 
 
-# 3 - Voir la silde 11
+# 3 - Voir les slides de 11 à 14
 # 4 - Voir les problèmes avec les utilités (Slide 15)
 
 - Ces dispositives fournissent des informations sur l'apprentissage par renforcement (RL) et les défis liés aux récompenses infinies dans des environnements où le jeu ou la tâche pourrait durer indéfiniment.
