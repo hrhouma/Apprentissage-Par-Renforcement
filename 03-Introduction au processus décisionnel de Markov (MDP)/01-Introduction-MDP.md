@@ -4,7 +4,7 @@
 
 - Dans un processus de décision markovien (MDP), la **propriété de Markov** est essentielle.
 - Elle stipule que la probabilité de transition vers un nouvel état dépend uniquement de l'état actuel et de l'action entreprise, et non des états précédents. Cela simplifie l'analyse et la modélisation des systèmes dynamiques.
-- Pour vilgariser, on peut dire que la propriété de Markov stipule que le futur état dépend uniquement de l'état actuel et de l'action choisie, et non des états ou actions précédents. Cela simplifie le processus de modélisation en ne nécessitant que l'état courant pour prendre des décisions.
+- Pour vilgariser, on peut dire que la propriété de Markov stipule que ***le futur état dépend uniquement de l'état actuel et de l'action choisie, et non des états ou actions précédents. Cela simplifie le processus de modélisation en ne nécessitant que l'état courant pour prendre des décisions***.
 
 -------------------------------------------------------
 # 2 - **Équation de probabilité des états**
