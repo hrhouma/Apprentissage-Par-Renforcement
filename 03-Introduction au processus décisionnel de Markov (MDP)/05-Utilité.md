@@ -21,9 +21,9 @@
 # 3 - Voir les slides de 11 à 14
 # 4 - Voir les problèmes avec les utilités (Slide 15)
 
-- Ces dispositives fournissent des informations sur l'apprentissage par renforcement (RL) et les défis liés aux récompenses infinies dans des environnements où le jeu ou la tâche pourrait durer indéfiniment.
+- Ces dispositives (numéro 15) expose les défis liés aux récompenses infinies dans des environnements où le jeu ou la tâche pourrait durer indéfiniment.
 
-## **Infinite Utilities**
+# **Infinite Utilities**
 
 - **Problème** : Si un jeu ou une tâche dure éternellement, comment gérer les récompenses infinies ?
   
