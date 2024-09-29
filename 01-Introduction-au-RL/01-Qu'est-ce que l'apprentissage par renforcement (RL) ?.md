@@ -1,8 +1,8 @@
-**Qu'est-ce que l'apprentissage par renforcement (RL) ?**
+# **Qu'est-ce que l'apprentissage par renforcement (RL) ?**
 
 L'apprentissage par renforcement est une technique d'apprentissage automatique basée sur le feedback dans laquelle un agent apprend à se comporter dans un environnement en effectuant des actions et en observant les résultats de ces actions. Pour chaque bonne action, l'agent reçoit une récompense positive, et pour chaque mauvaise action, il reçoit une pénalité ou un feedback négatif.
 
-### Principes de base :
+# Principes de base :
 1. **Processus d'essai et d'erreur** : L'agent interagit avec l'environnement sans intervention humaine directe et améliore ses performances en obtenant des récompenses positives. Il apprend ce qui fonctionne bien et ce qui ne fonctionne pas.
    
 2. **Décisions séquentielles** : L'apprentissage par renforcement s'applique aux problèmes où les décisions doivent être prises de manière séquentielle, comme dans les jeux, la robotique, etc.
@@ -26,7 +26,7 @@ Finalement, l'agent apprend à identifier les actions qui mènent à une récomp
 
 L'apprentissage par renforcement (ou *reinforcement learning* en anglais) est une méthode d'apprentissage automatique où un agent apprend à interagir avec un environnement afin d'optimiser une récompense cumulative au fil du temps. Voici un aperçu plus détaillé de ce concept :
 
-## **Principe de l'apprentissage par renforcement**
+# **Principe de l'apprentissage par renforcement**
 
 - **Interaction avec l'environnement** : L'agent prend des actions dans un environnement et reçoit des retours sous forme de récompenses ou de pénalités. Ces retours aident l'agent à ajuster ses actions futures pour maximiser les récompenses.
 
@@ -34,7 +34,7 @@ L'apprentissage par renforcement (ou *reinforcement learning* en anglais) est un
 
 - **Absence de données étiquetées** : Contrairement à l'apprentissage supervisé, l'apprentissage par renforcement ne nécessite pas de données étiquetées. L'agent apprend directement de ses interactions avec l'environnement.
 
-## **Composants clés**
+# **Composants clés**
 
 - **Agent** : Entité qui prend des décisions.
 - **Environnement** : Monde dans lequel l'agent opère.
@@ -42,7 +42,7 @@ L'apprentissage par renforcement (ou *reinforcement learning* en anglais) est un
 - **États** : Représentations de la situation actuelle de l'environnement.
 - **Récompenses** : Signaux qui indiquent le succès ou l'échec d'une action.
 
-## **Types d'apprentissage par renforcement**
+# **Types d'apprentissage par renforcement**
 
 1. **Renforcement positif** : Encourage les comportements qui mènent à des résultats positifs.
 2. **Renforcement négatif** : Décourage les comportements indésirables en associant des pénalités.
@@ -55,7 +55,7 @@ L'apprentissage par renforcement est utilisé dans divers domaines tels que :
 - **Robotique** : Permettre aux robots d'apprendre des tâches complexes par eux-mêmes.
 - **Systèmes de recommandation** : Optimiser les recommandations basées sur les interactions utilisateur.
 
-## **Avantages et défis**
+# **Avantages et défis**
 
 - **Avantages** :
   - Capacité d'apprendre dans des environnements dynamiques et incertains.
