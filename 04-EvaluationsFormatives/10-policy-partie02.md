@@ -1,4 +1,6 @@
+----------------------------------------------
 # Exercices sur la Policy
+----------------------------------------------
 
 1. **Exercice de définition :**
    - Décrivez ce qu'est une policy dans le contexte du RL et donnez un exemple d'une policy déterministe et d'une policy stochastique.
