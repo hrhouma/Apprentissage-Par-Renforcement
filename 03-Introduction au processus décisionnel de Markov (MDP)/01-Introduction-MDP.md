@@ -1,5 +1,5 @@
 -------------------------------------------------------
-# 1 - *propriété de Markov*
+# 1 - *Propriété de Markov*
 -------------------------------------------------------
 
 - Dans un processus de décision markovien (MDP), la **propriété de Markov** est essentielle.
