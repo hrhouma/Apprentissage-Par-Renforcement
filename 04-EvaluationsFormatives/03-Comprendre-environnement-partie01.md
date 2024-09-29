@@ -1,5 +1,7 @@
 # **Quiz : Comprendre les Types d’Environnements dans l'Apprentissage par Renforcement**
 
+- Théorie : Voir la partie 02-Notions-au-RL (FAQ)
+  
 #### **Question 1 : Environnement Déterministe**
 **Mise en situation** : Dans un jeu vidéo, un personnage doit atteindre un trésor. À chaque fois que le joueur appuie sur la touche pour avancer, le personnage se déplace toujours d'une case vers l'avant.
 
