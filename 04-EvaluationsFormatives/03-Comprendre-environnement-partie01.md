@@ -1,4 +1,7 @@
-# **Quiz 1 : Comprendre les Types d’Environnements dans l'Apprentissage par Renforcement**
+------------------------------------------------------------------
+# **Quiz - Comprendre les Types d’Environnements dans l'Apprentissage par Renforcement**
+------------------------------------------------------------------
+
 
 - Théorie : Voir la partie 02-Notions-au-RL (FAQ)
   
