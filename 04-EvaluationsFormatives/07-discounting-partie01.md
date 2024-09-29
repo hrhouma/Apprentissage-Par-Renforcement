@@ -1,4 +1,6 @@
+-------------------------------------------------------
 # Quiz sur l'actualisation (discounting)
+-------------------------------------------------------
 
 1. **Qu'est-ce que l'actualisation (discounting) dans le RL ?**
    - a) Ignorer les récompenses futures
