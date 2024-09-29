@@ -9,7 +9,7 @@ L'apprentissage par renforcement est une technique d'apprentissage automatique b
 
 3. **Objectif** : Le but principal est que l'agent maximise les récompenses cumulées à long terme en apprenant des actions correctes dans diverses situations.
 
-### Exemple pratique :
+# Exemple pratique :
 Imaginez un agent IA dans un labyrinthe, dont l'objectif est de trouver un diamant. Chaque mouvement dans le labyrinthe entraîne un changement d'état, et selon son action, l'agent peut recevoir une récompense ou une pénalité. En répétant ce processus, l'agent apprend à s'améliorer et à explorer l'environnement de manière plus efficace.
 
 Le schéma de base de l'apprentissage par renforcement repose sur trois étapes :
@@ -20,7 +20,7 @@ Le schéma de base de l'apprentissage par renforcement repose sur trois étapes�
 Finalement, l'agent apprend à identifier les actions qui mènent à une récompense positive et celles qui entraînent une pénalité négative. Ainsi, il ajuste son comportement en fonction des résultats observés pour accomplir sa tâche.
 
 ------------------------------------------
-# Récapitulation
+# Synthèse
 ------------------------------------------
 
 
