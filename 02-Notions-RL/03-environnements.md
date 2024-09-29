@@ -1,4 +1,4 @@
-### README 1: **Environnement Dynamique**
+# 1 - **Environnement Dynamique**
 
 #### Qu'est-ce qu'un environnement dynamique ?
 Un **environnement dynamique** est un environnement qui change constamment au fil du temps. Les conditions, les règles ou les états de l'environnement évoluent en fonction d'événements externes ou internes. Ces changements peuvent être prévisibles ou imprévisibles, mais ce qui est important, c'est que l'agent doit continuellement s'adapter à ces changements.
@@ -12,7 +12,7 @@ Imagine un robot qui doit naviguer dans un entrepôt où les objets et les obsta
 
 ---
 
-### README 2: **Environnement Statique**
+# 2 - **Environnement Statique**
 
 #### Qu'est-ce qu'un environnement statique ?
 Un **environnement statique** est un environnement où rien ne change au fil du temps. Une fois que l'agent est introduit dans cet environnement, toutes les règles et les conditions restent les mêmes, indépendamment des actions de l'agent. Cela signifie que l'agent n'a pas besoin de s'adapter aux changements externes.
@@ -26,7 +26,7 @@ Imaginons un labyrinthe simple où les murs et les chemins restent toujours au m
 
 ---
 
-### README 3: **Environnement Stochastique**
+# 3 - **Environnement Stochastique**
 
 #### Qu'est-ce qu'un environnement stochastique ?
 Un **environnement stochastique** est un environnement dans lequel les résultats des actions sont influencés par le hasard ou des probabilités. Même si l'agent exécute la même action plusieurs fois dans des conditions similaires, le résultat peut varier à cause d'éléments aléatoires.
@@ -40,7 +40,7 @@ Prenons un robot qui doit ramasser des objets dans un environnement où la posit
 
 ---
 
-### README 4: **Environnement Non-déterministe**
+# 4 - **Environnement Non-déterministe**
 
 #### Qu'est-ce qu'un environnement non-déterministe ?
 Un **environnement non-déterministe** est un environnement où les actions peuvent conduire à plusieurs résultats possibles. Contrairement à un environnement déterministe où chaque action a un résultat fixe, ici, une même action peut produire des résultats différents selon le contexte ou des facteurs non observables.
@@ -54,7 +54,7 @@ Imaginons un jeu vidéo où chaque fois que le joueur ouvre une porte, il pourra
 
 ---
 
-### README 5: **Combinaison dans le cadre de l'Apprentissage par Renforcement (RL)**
+# 5 - **Combinaison dans le cadre de l'Apprentissage par Renforcement (RL)**
 
 #### Comment ces concepts s'appliquent-ils à l'Apprentissage par Renforcement ?
 
@@ -79,6 +79,3 @@ Dans le cadre de l'apprentissage par renforcement, les agents interagissent avec
 
 L'objectif en RL est que l'agent apprenne à **prendre des décisions optimales** dans un environnement, qu'il soit dynamique, statique, stochastique ou non-déterministe. Il apprend en testant différentes actions et en recevant un feedback sous forme de récompenses ou de pénalités pour améliorer ses futures actions.
 
----
-
-Ces README aideront vos étudiants à comprendre les différents types d'environnements auxquels un agent peut être confronté en apprentissage par renforcement.
