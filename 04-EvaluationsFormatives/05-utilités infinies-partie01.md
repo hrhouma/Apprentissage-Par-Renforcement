@@ -1,4 +1,6 @@
+------------------------------------------------------------------
 # Quiz sur les utilités infinies
+------------------------------------------------------------------
 
 1. **Qu'est-ce qu'une utilité infinie dans le contexte du RL ?**
    - a) Une récompense qui ne peut jamais être atteinte
