@@ -1,6 +1,7 @@
 # **Les Fonctions de Valeur**
 
-![image](https://github.com/user-attachments/assets/7a1fb1f9-6b68-4dcb-87a6-6c183a1d1bbc)
+![image](https://github.com/user-attachments/assets/1f336749-e216-41c3-a4bd-29ebbcc18f6d)
+
 
 ## Référence : https://www.youtube.com/watch?v=9JZID-h6ZJ0
 
