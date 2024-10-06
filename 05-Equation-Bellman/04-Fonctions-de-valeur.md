@@ -1,5 +1,9 @@
 # **Les Fonctions de Valeur**
 
+![image](https://github.com/user-attachments/assets/7a1fb1f9-6b68-4dcb-87a6-6c183a1d1bbc)
+
+## Référence : https://www.youtube.com/watch?v=9JZID-h6ZJ0
+
 Lorsque l'on parle d'apprentissage par renforcement, il est important de comprendre comment un agent (comme un robot ou un programme) peut évaluer la situation dans laquelle il se trouve. Il utilise des **fonctions de valeur** pour cela. Il y a deux types principaux :
 
 1. **Fonction de valeur d'état (V(s))** :
