@@ -74,3 +74,54 @@ Si tu programmes un robot 🎮 :
 - Avec **l'apprentissage hors-ligne**, tu collectes d'abord un ensemble de données sur le comportement du robot dans différents environnements, tu l'entraînes **hors-ligne**, puis tu le déploies pour exécuter ses tâches sans mise à jour en temps réel.
 
 Les deux approches sont utiles selon le type d'application et la nature des données. 😊
+
+------------------------
+# Annexe : 
+------------------------
+
+
+Je vous présente une table comparative qui classe les différentes méthodes d'apprentissage (Deep Learning, Reinforcement Learning, Supervised, Unsupervised, Deep Reinforcement Learning, Generative) en fonction de leurs caractéristiques, notamment si elles sont **en ligne** (online) ou **hors-ligne** (offline), ainsi que d'autres aspects clés :
+
+| **Méthode**                       | **En ligne (Online)** | **Hors-ligne (Offline)** | **Supervisé**    | **Non-supervisé** | **Caractéristique clé**                         | **Exemple d'algorithme**                     |
+|------------------------------------|-----------------------|--------------------------|------------------|-------------------|-------------------------------------------------|------------------------------------------------|
+| **Deep Learning**                  | 🚫 Rarement            | ✅ Souvent                | ✅ Oui            | 🚫 Non             | Modèles profonds entraînés sur de grands jeux de données | CNN (Convolutional Neural Networks), RNN (Recurrent Neural Networks) |
+| **Apprentissage supervisé**        | 🚫 Rarement            | ✅ Souvent                | ✅ Oui            | 🚫 Non             | Modèle apprend à partir de données étiquetées    | Régression linéaire, SVM (Support Vector Machines), KNN (K-Nearest Neighbors) |
+| **Apprentissage non-supervisé**     | 🚫 Rarement            | ✅ Souvent                | 🚫 Non            | ✅ Oui             | Modèle apprend à partir de données non étiquetées | Clustering (K-Means), PCA (Principal Component Analysis) |
+| **Reinforcement Learning (RL)**    | ✅ Oui                 | ✅ Parfois                | 🚫 Non            | ✅ Oui             | Apprentissage par interaction avec un environnement | Q-Learning, SARSA |
+| **Deep Reinforcement Learning (Deep RL)** | ✅ Oui            | ✅ Parfois                | 🚫 Non            | ✅ Oui             | RL utilisant des réseaux de neurones profonds     | DQN (Deep Q-Network), A3C (Asynchronous Advantage Actor-Critic) |
+| **Apprentissage génératif (Generative)** | 🚫 Rarement       | ✅ Souvent                | 🚫 Non            | ✅ Oui             | Modèle génère des données réalistes              | GANs (Generative Adversarial Networks), VAE (Variational Autoencoders) |
+
+### **Explications complémentaires :**
+
+1. **Deep Learning** :
+   - Le **Deep Learning** est généralement **hors-ligne** car les réseaux de neurones sont souvent entraînés sur de grands jeux de données avant d'être déployés. Une fois le modèle entraîné, il est utilisé pour faire des prédictions.
+   - C'est une méthode **supervisée** lorsqu'il y a des étiquettes disponibles (par exemple, classification d'images).
+
+2. **Apprentissage supervisé** :
+   - L'**apprentissage supervisé** est principalement **hors-ligne**, car il nécessite de grandes quantités de données étiquetées pour s'entraîner. On n'actualise pas le modèle en temps réel, mais plutôt en une seule étape d'entraînement.
+   - Utilisé pour prédire des résultats à partir de données étiquetées.
+
+3. **Apprentissage non-supervisé** :
+   - L'**apprentissage non-supervisé** est souvent **hors-ligne**, mais il peut être **en ligne** dans certains cas (comme l'apprentissage en streaming). Le modèle découvre des structures cachées dans des données non étiquetées.
+   - Exemples : **Clustering** ou **réduction de dimension**.
+
+4. **Reinforcement Learning (RL)** :
+   - Le **Reinforcement Learning** peut être **en ligne** car l'agent apprend **en temps réel**, au fur et à mesure qu'il interagit avec l'environnement.
+   - Il peut aussi être **hors-ligne** si l'agent est entraîné sur un ensemble de transitions (données collectées) avant d'interagir avec l'environnement.
+   - C'est une méthode **non-supervisée** car il n'y a pas d'étiquette fixe pour chaque action ; l'agent apprend à partir des récompenses.
+
+5. **Deep Reinforcement Learning (Deep RL)** :
+   - Comme le **Reinforcement Learning**, mais avec des réseaux de neurones profonds pour approximer les politiques et les valeurs.
+   - Peut être **en ligne** ou **hors-ligne**, mais est souvent utilisé **en ligne** dans des environnements dynamiques.
+
+6. **Apprentissage génératif (Generative Learning)** :
+   - Utilisé pour créer de nouvelles données réalistes (par exemple, images, textes).
+   - En général, l'apprentissage est **hors-ligne**, mais peut être adapté en **ligne** dans certaines applications spécifiques.
+   - Exemples : **GANs** (réseaux adverses génératifs), où un modèle génère des exemples réalistes à partir d'un apprentissage non supervisé.
+
+---
+
+### **Résumé** :
+- **En ligne (Online)** : Les méthodes qui apprennent en temps réel, comme le **Reinforcement Learning** et certaines versions du **Deep Reinforcement Learning**, sont principalement utilisées pour des environnements dynamiques.
+- **Hors-ligne (Offline)** : La majorité des méthodes, comme le **Deep Learning**, l'**apprentissage supervisé** et **génératif**, sont hors-ligne, nécessitant des ensembles de données complets pour s'entraîner avant déploiement.
+- **Supervisé** vs **Non-supervisé** : Les méthodes **supervisées** nécessitent des étiquettes pour les données d'entraînement, tandis que les méthodes **non-supervisées** cherchent à découvrir des structures dans les données sans étiquettes explicites.
