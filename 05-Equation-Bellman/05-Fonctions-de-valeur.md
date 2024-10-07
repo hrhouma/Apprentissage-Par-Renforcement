@@ -37,6 +37,5 @@ Imagine un jeu où tu contrôles un personnage qui doit traverser un pont pour o
   
 - **Fonction de valeur état-action** : "Je suis au milieu du pont. Si je décide de courir vers la sortie, est-ce une bonne idée ?" Peut-être que courir est dangereux mais sauter serait plus sûr. La fonction de valeur état-action te dira laquelle des actions est la meilleure pour cette situation.
 
----
 
 En résumé, ces fonctions aident l'agent à comprendre la qualité de chaque situation et de chaque décision à prendre, afin qu'il puisse maximiser ses récompenses et prendre les meilleures décisions.
