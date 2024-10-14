@@ -311,7 +311,21 @@ Dans les cas de **politiques optimales** (optimisation de l'agent), l'équation 
 
 $$
 V^*(S) = \max_a \mathbb{E} \left[ R_{t+1} + \gamma V^*(S_{t+1}) \right]
-$$**
+$$
+
+
+
+$$
+V^*(s) = \max_a \mathbb{E} \left[ R_{t+1} + \gamma V^*(s_{t+1}) \mid s_t = s, a_t = a \right]
+$$
+
+Les ajustements suivants ont été effectués :
+- Utilisation de la minuscule \( s \) pour l'état, en accord avec la convention souvent utilisée pour les états individuels.
+- Ajout des conditions \(\mid s_t = s, a_t = a\) pour indiquer explicitement que l'espérance est calculée conditionnellement à partir de l'état \(s\) et de l'action \(a\).
+- La structure générale et la signification de l'équation sont restées intactes.
+
+
+
 
 Cela exprime que la valeur optimale de l'état **$$S$$** est la meilleure valeur que l'agent peut obtenir en choisissant l'action optimale.
 
@@ -322,6 +336,8 @@ L'équation de Bellman est directement liée à l'algorithme de **Q-Learning**, 
 $$
 Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left[ R_{t+1} + \gamma \max_{a} Q(S_{t+1}, a) - Q(S_t, A_t) \right]
 $$
+
+
 
 
 
