@@ -36,7 +36,7 @@ Pour surmonter certaines limitations, vous pouvez envisager des approches avanc√
 
 [1] https://www.youtube.com/watch?v=TiAXhVAZQl8&ab_channel=CodeEmporium
 
-[2] https://pplx-res.cloudinary.com/image/upload/v1728858000/user_uploads/xshmdtdzk/image.jpg
+[2] https://www.youtube.com/watch?v=__t2XRxXGxI&ab_channel=Dr.DanielSoper
 
 [3] https://www.avenga.com/magazine/q-learning-applications/
 
