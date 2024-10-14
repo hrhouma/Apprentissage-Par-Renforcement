@@ -163,7 +163,7 @@ Chaque méthode a ses propres avantages et inconvénients en fonction du context
 
 # Citations:
 
-[1] https://pplx-res.cloudinary.com/image/upload/v1728874976/user_uploads/szareivvb/image.jpg
+[1] https://www.td.com/ca/fr/investir/placement-en-direct/education
 
 [2] https://fr.wikipedia.org/wiki/Temporal_difference_learning
 
