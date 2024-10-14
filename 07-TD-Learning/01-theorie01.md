@@ -210,7 +210,73 @@ $$
 
 
 
+### TD(0) — Mise à jour immédiate après chaque étape
 
+$$
+V(S_t) \leftarrow V(S_t) + \alpha \left[ R_{t+1} + \gamma V(S_{t+1}) - V(S_t) \right]
+$$
+
+### TD(1) — Utilisation d'une récompense après une étape supplémentaire
+
+$$
+V(S_t) \leftarrow V(S_t) + \alpha \left[ R_{t+1} + \gamma R_{t+2} + \gamma^2 V(S_{t+2}) - V(S_t) \right]
+$$
+
+### TD(2) — Utilisation de deux étapes supplémentaires
+
+$$
+V(S_t) \leftarrow V(S_t) + \alpha \left[ R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + \gamma^3 V(S_{t+3}) - V(S_t) \right]
+$$
+
+### TD(n) — Généralisation pour \(n\) étapes
+
+$$
+V(S_t) \leftarrow V(S_t) + \alpha \left[ \sum_{k=1}^{n} \gamma^{k-1} R_{t+k} + \gamma^n V(S_{t+n}) - V(S_t) \right]
+$$
+
+### Q-Learning — Apprentissage des paires état-action
+
+$$
+Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left[ R_{t+1} + \gamma \max_{a} Q(S_{t+1}, a) - Q(S_t, A_t) \right]
+$$
+
+
+
+------------
+
+Voici les équations corrigées avec le bon formatage LaTeX :
+
+### TD(0) — Mise à jour immédiate après chaque étape
+
+$$
+V(S_t) \leftarrow V(S_t) + \alpha \left[ R_{t+1} + \gamma V(S_{t+1}) - V(S_t) \right]
+$$
+
+### TD(1) — Utilisation d'une récompense complète après un épisode
+
+$$
+V(S_t) \leftarrow V(S_t) + \alpha \left[ R_{t+1} + \gamma R_{t+2} + \gamma^2 V(S_{t+2}) - V(S_t) \right]
+$$
+
+### TD(2) — Deux étapes de transition
+
+$$
+V(S_t) \leftarrow V(S_t) + \alpha \left[ R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + \gamma^3 V(S_{t+3}) - V(S_t) \right]
+$$
+
+### TD(n) — Généralisation pour $$n$$ étapes
+
+$$
+V(S_t) \leftarrow V(S_t) + \alpha \left[ \sum_{k=1}^{n} \gamma^{k-1} R_{t+k} + \gamma^n V(S_{t+n}) - V(S_t) \right]
+$$
+
+### Q-Learning — Apprentissage des paires état-action
+
+$$
+Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left[ R_{t+1} + \gamma \max_{a} Q(S_{t+1}, a) - Q(S_t, A_t) \right]
+$$
+
+A
 
 # Citations:
 
