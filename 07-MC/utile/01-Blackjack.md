@@ -1,6 +1,7 @@
 # Blackjack
 
 # Référence :
+- https://www.youtube.com/watch?v=nkD2dlzodvU&ab_channel=ZozoleJoueur
 - https://www.youtube.com/watch?v=eyoh-Ku9TCI&ab_channel=wikiHow
 - https://www.youtube.com/watch?v=-YMGilNq1iI&ab_channel=MinuteFacile
   
