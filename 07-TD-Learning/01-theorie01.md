@@ -1,6 +1,31 @@
-## Introduction au TD-Learning
+# Introduction au TD-Learning
 
-Le **TD-Learning** est une méthode d'apprentissage par renforcement qui combine des aspects des méthodes de Monte Carlo et de la programmation dynamique. Il permet à un agent d'apprendre en mettant à jour les estimations de la valeur des états ou des paires état-action à chaque étape, sans attendre la fin d'un épisode.
+- Le **TD-Learning** est une méthode d'apprentissage par renforcement qui combine des aspects des méthodes de Monte Carlo et de la programmation dynamique. Il permet à un agent d'apprendre en mettant à jour les estimations de la valeur des états ou des paires état-action à chaque étape, sans attendre la fin d'un épisode.
+
+- Le **TD-Learning** (Temporal Difference Learning) est une technique d'apprentissage par renforcement qui aide un agent à prendre de meilleures décisions en apprenant progressivement de ses expériences.
+
+## Simplification
+
+1. **Valeur de l'État ($V(S_t)$)** : C'est une estimation de la qualité d'un état donné. Plus la valeur est élevée, plus l'état est considéré comme bon.
+2. **Récompense Immédiate ($R_{t+1}$)** : C'est le retour immédiat reçu après une action. Cela peut être positif (récompense) ou négatif (punition).
+3. **Taux d'Apprentissage ($\alpha$)** : Un nombre entre 0 et 1 qui détermine à quelle vitesse l'agent apprend. Un taux élevé signifie que l'agent s'adapte rapidement aux nouvelles informations.
+4. **Facteur de Discount ($\gamma$)** : Un nombre entre 0 et 1 qui réduit l'importance des récompenses futures. Plus il est proche de 1, plus l'agent valorise les récompenses futures.
+
+## Fonctionnement
+
+- **Mise à Jour Progressive** : Contrairement aux méthodes qui attendent la fin d'un épisode pour apprendre, le TD-Learning met à jour les valeurs après chaque étape.
+- **Combinaison d'Approches** : Il utilise des idées des méthodes Monte Carlo (qui apprennent à partir d'expériences complètes) et de la programmation dynamique (qui utilise des estimations actuelles pour améliorer les décisions futures).
+  
+## Pourquoi Utiliser TD-Learning ?
+
+- **Efficacité** : L'apprentissage se fait en temps réel, ce qui est utile dans des environnements où les épisodes sont longs ou continus.
+- **Flexibilité** : Il s'adapte bien aux environnements changeants, permettant à l'agent d'améliorer ses décisions au fur et à mesure qu'il acquiert de nouvelles informations.
+
+En résumé, le TD-Learning est une méthode efficace pour enseigner à un agent comment naviguer dans un environnement complexe en apprenant progressivement de ses propres actions et résultats.
+
+
+
+
 
 ## Concepts Clés
 
@@ -73,7 +98,8 @@ Le TD-Learning est une méthode puissante pour l'apprentissage en temps réel da
 
 Pour plus de détails sur les algorithmes et leurs applications, vous pouvez consulter des ressources comme "Reinforcement Learning: An Introduction" par Sutton et Barto.
 
-Citations:
+# Citations:
+
 [1] https://pplx-res.cloudinary.com/image/upload/v1728874976/user_uploads/szareivvb/image.jpg
 
 [2] https://fr.wikipedia.org/wiki/Temporal_difference_learning
