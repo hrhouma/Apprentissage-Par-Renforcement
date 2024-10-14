@@ -194,8 +194,8 @@ $$
 Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left[ R_{t+1} + \gamma \max_{a} Q(S_{t+1}, a) - Q(S_t, A_t) \right]
 $$
 
-- **$$Q(S_t, A_t)$$** : la valeur de la paire état-action \( (S_t, A_t) \).
-- \( \max_{a} Q(S_{t+1}, a) \) : la meilleure valeur de l'action possible à partir de l'état suivant \( S_{t+1} \).
+- **$$Q(S_t, A_t)$$** : la valeur de la paire état-action **$$(S_t, A_t)$$**.
+- **$$\max_{a} Q(S_{t+1}, a)$$** : la meilleure valeur de l'action possible à partir de l'état suivant **$$S_{t+1}$$**.
 
 ### Résumé
 
