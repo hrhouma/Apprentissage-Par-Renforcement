@@ -242,7 +242,6 @@ $$
 
 
 
-Il semble que le format LaTeX ne s'affiche pas correctement dans votre document. Voici comment corriger les équations et le texte pour un rendu correct :
 
 ### Explication des termes :
 
@@ -271,10 +270,6 @@ $$
 - Ajout des conditions pour indiquer que l'espérance est calculée conditionnellement.
 
 Cela exprime que la valeur optimale de l'état $$ S $$ est la meilleure valeur que l'agent peut obtenir en choisissant l'action optimale. Assurez-vous que votre plateforme supporte le rendu LaTeX pour un affichage correct.
-
-Citations:
-[1] https://pplx-res.cloudinary.com/image/upload/v1728874976/user_uploads/szareivvb/image.jpg
-[2] https://pplx-res.cloudinary.com/image/upload/v1728901177/user_uploads/tgnzcimoh/image.jpg
 
 
 
