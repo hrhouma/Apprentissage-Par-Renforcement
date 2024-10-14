@@ -314,63 +314,6 @@ Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left[ R_{t+1} + \gamma \max_{a} Q(S
 $$
 
 
--------------------------
-### Équation de Bellman 
--------------------------
-
-- L'équation de Bellman est fondamentale dans l'apprentissage par renforcement, car elle décrit la relation récursive entre la valeur d'un état et les valeurs des états futurs. Elle est utilisée pour calculer les valeurs optimales d'une politique ou d'une fonction de valeur dans un processus de décision markovien (MDP).
-- Les équations de Bellman sont les bases théoriques derrière de nombreux algorithmes d'apprentissage par renforcement, y compris le TD-Learning et le Q-Learning.
-
-
-### Équation de Bellman pour la Valeur d'État (Bellman Equation for State Value)
-
-L'équation de Bellman pour la valeur d'un état **$$V(S)$$** est :
-
-$$
-V(S) = \mathbb{E} \left[ R_{t+1} + \gamma V(S_{t+1}) \right]
-$$
-
-Cela signifie que la valeur d'un état **$$S$$** est égale à l'espérance de la récompense immédiate **$$R_{t+1}$$** plus la valeur de l'état suivant **$$S_{t+1}$$**, actualisée par le facteur **$$gamma$$**.
-
-### Équation de Bellman pour la Valeur d'État-Action (Bellman Equation for Action Value)
-
-Pour une fonction de valeur d'action **$$Q(S, A)$$**, l'équation de Bellman est :
-
-$$
-Q(S, A) = \mathbb{E} \left[ R_{t+1} + \gamma \max_{a} Q(S_{t+1}, a) \right]
-$$
-
-Cela signifie que la valeur de la paire état-action **$$(S, A)$$** est égale à l'espérance de la récompense immédiate **$$R_{t+1}$$** plus la meilleure valeur de l'action future à partir de l'état suivant **$$S_{t+1}$$**, actualisée par **$$gamma$$**.
-
-
--------------------------
-
-
-### Décomposition pour les politiques optimales
-
-Dans les cas de **politiques optimales** (optimisation de l'agent), l'équation de Bellman devient :
-
-$$
-V^*(S) = \max_a \mathbb{E} \left[ R_{t+1} + \gamma V^*(S_{t+1}) \right]
-$$
-
-$$
-V^*(s) = \max_a \mathbb{E} \left[ R_{t+1} + \gamma V^*(s_{t+1}) \mid s_t = s, a_t = a \right]
-$$
-
-Cela signifie que la valeur optimale de l'état **$$s$$** est la meilleure valeur que l'agent peut obtenir en choisissant l'action optimale \(a\) dans cet état. L'espérance \(\mathbb{E}\) est calculée conditionnellement à partir de l'état **$$s_t = s$$** et de l'action **$$a_t = a$$**.
-
-### Équation de Bellman pour Q-Learning
-
-L'équation de Bellman est directement liée à l'algorithme de **Q-Learning**, qui met à jour la fonction de valeur d'état-action **$$Q(S, A)$$** avec l'équation suivante :
-
-$$
-Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left[ R_{t+1} + \gamma \max_{a} Q(S_{t+1}, a) - Q(S_t, A_t) \right]
-$$
-
-
-------------------------
-
 
 
 
