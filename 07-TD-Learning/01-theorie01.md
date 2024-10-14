@@ -234,45 +234,6 @@ $$
 V(S_t) \leftarrow V(S_t) + \alpha \left[ \sum_{k=1}^{n} \gamma^{k-1} R_{t+k} + \gamma^n V(S_{t+n}) - V(S_t) \right]
 $$
 
-### Q-Learning — Apprentissage des paires état-action
-
-$$
-Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left[ R_{t+1} + \gamma \max_{a} Q(S_{t+1}, a) - Q(S_t, A_t) \right]
-$$
-
-
-
-
-### Explication des termes :
-
-- **$$ V(S_t) $$** : la *valeur* de l'état actuel $$ S_t $$
-- **$$ R_{t+1} $$** : la *récompense immédiate* reçue après l'action
-- **$$ \alpha $$** : le *taux d'apprentissage*, un nombre compris entre 0 et 1 qui contrôle à quelle vitesse l'agent apprend
-- **$$ \gamma $$** : le *facteur de discount* (ou de dépréciation), un nombre compris entre 0 et 1, qui réduit l'importance des récompenses futures. Plus $$ \gamma $$ est proche de 1, plus l'agent valorise les récompenses futures
-
-### Décomposition pour les politiques optimales
-
-Dans le cas des **politiques optimales** (optimisation de l'agent), l'équation de Bellman devient :
-
-$$
-V^*(S) = \max_a \mathbb{E} \left[ R_{t+1} + \gamma V^*(S_{t+1}) \right]
-$$
-
-Pour une notation plus précise avec conditions :
-
-$$
-V^*(s) = \max_a \mathbb{E} \left[ R_{t+1} + \gamma V^*(s_{t+1}) \mid s_t = s, a_t = a \right]
-$$
-
-### Ajustements effectués :
-
-- Utilisation de la minuscule $$ s $$ pour les états, selon la convention.
-- Ajout des conditions pour indiquer que l'espérance est calculée conditionnellement.
-
-Cela exprime que la valeur optimale de l'état $$ S $$ est la meilleure valeur que l'agent peut obtenir en choisissant l'action optimale. Assurez-vous que votre plateforme supporte le rendu LaTeX pour un affichage correct.
-
-
-
 
 
 
@@ -307,14 +268,7 @@ $$
 V(S_t) \leftarrow V(S_t) + \alpha \left[ \sum_{k=1}^{n} \gamma^{k-1} R_{t+k} + \gamma^n V(S_{t+n}) - V(S_t) \right]
 $$
 
-### Q-Learning — Apprentissage des paires état-action
-
-$$
-Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left[ R_{t+1} + \gamma \max_{a} Q(S_{t+1}, a) - Q(S_t, A_t) \right]
-$$
-
-
-
+------------------------
 
 
 
