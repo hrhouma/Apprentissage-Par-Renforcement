@@ -1,5 +1,3 @@
-Voici un format README avec les équations en LaTeX délimitées par $$ et sans crochets pour les citations :
-
 # TD-Learning et Q-Learning
 
 ## Introduction
@@ -49,6 +47,6 @@ Où :
 | TD(n)      | N-step     | État et n récompenses futures  | Équilibre entre exploration et précision| Complexité accrue avec n            |
 | Q-Learning | Off-policy | Paire état-action              | Trouve une politique optimale           | Nécessite plus d'espace de stockage |
 
-## Conclusion
+# Conclusion
 
 Le TD-Learning et le Q-Learning sont des méthodes puissantes pour l'apprentissage par renforcement, permettant aux agents d'apprendre de manière efficace dans des environnements complexes sans modèle complet.
