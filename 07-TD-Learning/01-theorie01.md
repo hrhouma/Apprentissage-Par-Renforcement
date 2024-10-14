@@ -27,6 +27,34 @@ $$
 
 **En termes simples**, cela signifie que l'agent met à jour sa compréhension de l'état actuel en tenant compte de la récompense qu'il vient de recevoir et de la valeur de l'état suivant.
 
+
+
+
+
+
+
+
+
+
+Je vois le problème avec l'affichage des équations en LaTeX. Voici la version corrigée pour que les équations soient correctement affichées avec les doubles signes $$ pour le format bloc et les simples signes \( \) pour les formules en ligne. Voici la section corrigée :
+
+---
+
+### Explication des termes :
+
+- \( V(S_t) \) : la **valeur** de l'état actuel \( S_t \).
+- \( R_{t+1} \) : la **récompense immédiate** reçue après l'action.
+- \( \alpha \) : le **taux d'apprentissage**, un nombre compris entre 0 et 1 qui contrôle à quelle vitesse l'agent apprend.
+- \( \gamma \) : le **facteur de discount** (ou de dépréciation), un nombre compris entre 0 et 1, qui réduit l'importance des récompenses futures. Plus \( \gamma \) est proche de 1, plus l'agent valorise les récompenses futures.
+
+---
+
+Le problème venait de l'utilisation incorrecte des doubles $$ pour les formules en ligne. Pour une formule en ligne (dans une phrase), il faut utiliser des parenthèses simples avec des barres obliques inverses \( \). Pour des équations en mode bloc (sur une nouvelle ligne), on utilise les doubles $$.
+
+Cela devrait maintenant résoudre les soucis de mise en forme.
+
+
+
 ---
 
 ## 3. Comparaison entre TD-Learning et Monte Carlo
