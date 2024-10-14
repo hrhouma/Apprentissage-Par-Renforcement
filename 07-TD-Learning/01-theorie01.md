@@ -6,10 +6,10 @@
 
 ## Simplification
 
-1. Valeur de l'État **$$V(S_t)$$** : C'est une estimation de la qualité d'un état donné. Plus la valeur est élevée, plus l'état est considéré comme bon.
-2. **Récompense Immédiate ($R_{t+1}$)** : C'est le retour immédiat reçu après une action. Cela peut être positif (récompense) ou négatif (punition).
-3. **Taux d'Apprentissage ($\alpha$)** : Un nombre entre 0 et 1 qui détermine à quelle vitesse l'agent apprend. Un taux élevé signifie que l'agent s'adapte rapidement aux nouvelles informations.
-4. **Facteur de Discount ($\gamma$)** : Un nombre entre 0 et 1 qui réduit l'importance des récompenses futures. Plus il est proche de 1, plus l'agent valorise les récompenses futures.
+1. *Valeur de l'État* **$$V(S_t)$$** : C'est une estimation de la qualité d'un état donné. Plus la valeur est élevée, plus l'état est considéré comme bon.
+2. *Récompense Immédiate* **($R_{t+1}$)** : C'est le retour immédiat reçu après une action. Cela peut être positif (récompense) ou négatif (punition).
+3. *Taux d'Apprentissage* **($\alpha$)** : Un nombre entre 0 et 1 qui détermine à quelle vitesse l'agent apprend. Un taux élevé signifie que l'agent s'adapte rapidement aux nouvelles informations.
+4. *Facteur de Discount* **($\gamma$)** : Un nombre entre 0 et 1 qui réduit l'importance des récompenses futures. Plus il est proche de 1, plus l'agent valorise les récompenses futures.
 
 ## Fonctionnement
 
@@ -27,7 +27,7 @@ En résumé, le TD-Learning est une méthode efficace pour enseigner à un agent
 
 
 
-## Concepts Clés
+# 2 - Concepts Clés
 
 ### 1. Équation de Mise à Jour TD(0)
 
