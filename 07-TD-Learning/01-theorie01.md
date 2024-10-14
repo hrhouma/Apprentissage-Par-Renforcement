@@ -20,7 +20,7 @@ V(S_t) \leftarrow V(S_t) + \alpha \left[ R_{t+1} + \gamma V(S_{t+1}) - V(S_t) \r
 $$
 
 ### Explication des termes :
-- \( V(S_t) \) : la **valeur** de l'état actuel \( S_t \).
+- $$ V(S_t) $$ : la **valeur** de l'état actuel $$ S_t $$
 - \( R_{t+1} \) : la **récompense immédiate** reçue après l'action.
 - \( \alpha \) : le **taux d'apprentissage**, un nombre compris entre 0 et 1 qui contrôle à quelle vitesse l'agent apprend.
 - \( \gamma \) : le **facteur de discount** (ou de dépréciation), un nombre compris entre 0 et 1, qui réduit l'importance des récompenses futures. Plus \( \gamma \) est proche de 1, plus l'agent valorise les récompenses futures.
