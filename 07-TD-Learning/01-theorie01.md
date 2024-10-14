@@ -150,9 +150,60 @@ Chaque méthode a ses propres avantages et inconvénients en fonction du context
 
 
 
+# Équations pour **TD(0)**, **TD(1)**, **TD(2)**, et ainsi de suite, ainsi que pour **Q-Learning**.
 
+### TD(0) — Mise à jour immédiate après chaque étape
 
+L'algorithme **TD(0)** met à jour la valeur de l'état après chaque transition, en tenant compte de la récompense immédiate et de la valeur estimée de l'état suivant :
 
+$$
+V(S_t) \leftarrow V(S_t) + \alpha \left[ R_{t+1} + \gamma V(S_{t+1}) - V(S_t) \right]
+$$
+
+### TD(1) — Utilisation d'une récompense complète après un épisode
+
+Dans **TD(1)**, on attend une étape supplémentaire, en tenant compte non seulement de la récompense immédiate mais aussi de la récompense après deux étapes :
+
+$$
+V(S_t) \leftarrow V(S_t) + \alpha \left[ R_{t+1} + \gamma R_{t+2} + \gamma^2 V(S_{t+2}) - V(S_t) \right]
+$$
+
+### TD(2) — Deux étapes de transition
+
+Pour **TD(2)**, la mise à jour prend en compte deux étapes supplémentaires, ce qui donne :
+
+$$
+V(S_t) \leftarrow V(S_t) + \alpha \left[ R_{t+1} + \gamma R_{t+2} + \gamma^2 R_{t+3} + \gamma^3 V(S_{t+3}) - V(S_t) \right]
+$$
+
+### TD(n) — Généralisation pour \(n\) étapes
+
+De manière générale, pour **TD(n)**, où nous utilisons \(n\) étapes futures pour la mise à jour, l'équation devient :
+
+$$
+V(S_t) \leftarrow V(S_t) + \alpha \left[ \sum_{k=1}^{n} \gamma^{k-1} R_{t+k} + \gamma^n V(S_{t+n}) - V(S_t) \right]
+$$
+
+Ici, \( \sum_{k=1}^{n} \gamma^{k-1} R_{t+k} \) représente la somme pondérée des récompenses jusqu'à \(n\) étapes.
+
+### Q-Learning — Apprentissage des paires état-action
+
+Le **Q-Learning** est une extension du TD-Learning qui apprend des paires état-action \( (S, A) \) au lieu de simplement les valeurs d'états. L'équation de mise à jour pour **Q-Learning** est :
+
+$$
+Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left[ R_{t+1} + \gamma \max_{a} Q(S_{t+1}, a) - Q(S_t, A_t) \right]
+$$
+
+- \( Q(S_t, A_t) \) : la valeur de la paire état-action \( (S_t, A_t) \).
+- \( \max_{a} Q(S_{t+1}, a) \) : la meilleure valeur de l'action possible à partir de l'état suivant \( S_{t+1} \).
+
+### Résumé
+
+- **TD(0)** se met à jour immédiatement après une étape.
+- **TD(1)** se met à jour en prenant en compte une étape supplémentaire.
+- **TD(2)** prend en compte deux étapes.
+- **TD(n)** généralise à \(n\) étapes avant de faire une mise à jour.
+- **Q-Learning** optimise l'apprentissage pour des paires état-action, cherchant à maximiser la récompense en choisissant l'action optimale à chaque étape.
 
 
 
