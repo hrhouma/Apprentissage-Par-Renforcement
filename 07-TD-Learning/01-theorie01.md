@@ -100,8 +100,10 @@ Pour plus de détails sur les algorithmes et leurs applications, vous pouvez con
 
 
 
-
+-------------
 # Annexe 1 - Pourquoi l'appelle-t-on TD(0) ?
+-------------
+
 
 Le **TD(0)** est appelé ainsi parce qu'il utilise une estimation à un seul pas pour mettre à jour la valeur d'un état. Le "0" indique qu'il ne regarde qu'un seul pas dans le futur (c'est-à-dire, la prochaine récompense et l'état suivant immédiat).
 
@@ -110,29 +112,19 @@ Le **TD(0)** est appelé ainsi parce qu'il utilise une estimation à un seul pas
 - **TD(0)** : Met à jour uniquement la valeur des états.
 - **Q-Learning** : Met à jour la valeur des paires état-action, ce qui permet de déterminer directement quelle action est optimale dans chaque état.
 
+-------------
 # Annexe 2 - Différence avec l'Équation de Bellman
+-------------
 
 - **Équation de Bellman** : Utilisée dans la programmation dynamique, elle calcule les valeurs optimales en utilisant des connaissances complètes de l'environnement (modèle).
 - **TD(0)** et **Q-Learning** : N'ont pas besoin de modèle complet. Ils apprennent à partir d'expériences directes et ajustent les valeurs au fur et à mesure.
 
 En résumé, TD(0) et Q-Learning sont des méthodes d'apprentissage par renforcement qui permettent d'apprendre sans connaître entièrement l'environnement, contrairement à l'équation de Bellman utilisée dans des contextes où le modèle est connu.
 
-# Annexe 3 - Différence avec l'Équation de Bellman
+-------------
+# Annexe 3 - Différence des méthodes TD(0), TD(1), TD(2), et Q-Learning :
+-------------
 
-
-
-Voici un tableau comparatif des méthodes TD(0), TD(1), TD(2), et Q-Learning :
-
-```
-| Méthode      | Type       | Mise à jour de la valeur                   | Équation                                                                 | Avantages                                           | Inconvénients                         |
-|--------------|------------|--------------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------------|---------------------------------------|
-| TD(0)        | On-policy  | État uniquement                            | $$V(S_t) \leftarrow V(S_t) + \alpha [R_{t+1} + \gamma V(S_{t+1}) - V(S_t)]$$ | Simple, rapide                                      | Ne considère qu’un seul pas           |
-| TD(1)        | N-step     | État et prochaines récompenses             | \( V(S_t) \leftarrow V(S_t) + \alpha [\Sigma R_{t+i} + \gamma^i V(S_{t+i})] \) | Mieux pour de courtes époques                      | Complexité plus élevée                |
-| TD(2)        | N-step     | État et plusieurs récompenses              | \( V(S_t) \leftarrow V(S_t) + \alpha [\Sigma R_{t+i} + \gamma^i V(S_{t+i})] \) | Équilibre entre exploration et exploitation         | Peut être lent                        |
-| Q-Learning   | Off-policy | Paire état-action                          | \( Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha [R_{t+1} + \gamma \max Q(S_{t+1}, a) - Q(S_t, A_t)] \) | Efficace pour trouver une politique optimale       | Nécessite un plus grand espace de stockage |
-```
-
-Il semble que le rendu des équations en LaTeX ne fonctionne pas correctement. Voici comment reformater les équations dans le tableau sans utiliser de LaTeX, pour un affichage correct en texte brut :
 
 ```
 | Méthode      | Type       | Mise à jour de la valeur                   | Équation                                                                 | Avantages                                           | Inconvénients                         |
@@ -143,12 +135,9 @@ Il semble que le rendu des équations en LaTeX ne fonctionne pas correctement. V
 | Q-Learning   | Off-policy | Paire état-action                          | Q(S_t, A_t) ← Q(S_t, A_t) + α [R_{t+1} + γ max Q(S_{t+1}, a) - Q(S_t, A_t)] | Efficace pour trouver une politique optimale       | Nécessite un plus grand espace de stockage |
 ```
 
-En utilisant cette méthode, les équations devraient s'afficher correctement dans un fichier texte ou un README sans support LaTeX.
 
-Citations:
-[1] https://pplx-res.cloudinary.com/image/upload/v1728874976/user_uploads/szareivvb/image.jpg
 
-## Anenxe 3 - **TD(0)**  vs **TD(1)** vs **TD(2)** 
+## Anenxe 4 - Résumé **TD(0)**  vs **TD(1)** vs **TD(2)** 
 
 - **TD(0)** : Met à jour la valeur d'un état immédiatement après chaque action, en utilisant la récompense immédiate et la valeur de l'état suivant.
 
