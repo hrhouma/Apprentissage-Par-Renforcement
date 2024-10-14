@@ -25,6 +25,33 @@ $$
 
 **En termes simples**, cela signifie que l'agent met à jour sa compréhension de l'état actuel en tenant compte de la récompense qu'il vient de recevoir et de la valeur de l'état suivant.
 
+
+
+
+
+
+
+
+
+
+Il semble que le formatage des équations en LaTeX ne s'affiche pas correctement. Voici comment reformater la section pour qu'elle soit bien rendue dans un fichier Markdown :
+
+### Explication des termes :
+
+- $$ V(S_t) $$ : la **valeur** de l'état actuel $$ S_t $$
+- $$ R_{t+1} $$ : la **récompense immédiate** reçue après l'action
+- $$ \alpha $$ : le **taux d'apprentissage**, un nombre compris entre 0 et 1 qui contrôle à quelle vitesse l'agent apprend
+- $$ \gamma $$ : le **facteur de discount** (ou de dépréciation), un nombre compris entre 0 et 1, qui réduit l'importance des récompenses futures. Plus $$ \gamma $$ est proche de 1, plus l'agent valorise les récompenses futures
+
+En termes simples, cela signifie que l'agent met à jour sa compréhension de l'état actuel en tenant compte de la récompense qu'il vient de recevoir et de la valeur de l'état suivant.
+
+Assurez-vous que votre plateforme supporte le rendu des équations en LaTeX.
+
+Citations:
+[1] https://pplx-res.cloudinary.com/image/upload/v1728874976/user_uploads/szareivvb/image.jpg
+
+
+
 ## 3. Comparaison entre TD-Learning et Monte Carlo
 
 Dans les méthodes de **Monte Carlo**, l'agent doit attendre **la fin de l'épisode** (par exemple, la fin d'une partie) pour ajuster la valeur de ses états.
