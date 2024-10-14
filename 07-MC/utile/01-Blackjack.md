@@ -1,5 +1,8 @@
 # Blackjack
 
+# Référence :
+- https://www.youtube.com/watch?v=eyoh-Ku9TCI&ab_channel=wikiHow
+  
 Le **Blackjack** est un jeu de cartes populaire, joué dans les casinos, où l’objectif est d’obtenir une main dont la valeur totale se rapproche de 21, sans jamais la dépasser. Voici une explication détaillée du déroulement du jeu et de ses règles.
 
 ### 1. **But du jeu**
