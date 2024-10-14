@@ -363,11 +363,11 @@ $$
 V^*(s) = \max_a \mathbb{E} \left[ R_{t+1} + \gamma V^*(s_{t+1}) \mid s_t = s, a_t = a \right]
 $$
 
-Cela signifie que la valeur optimale de l'état \(s\) est la meilleure valeur que l'agent peut obtenir en choisissant l'action optimale \(a\) dans cet état. L'espérance \(\mathbb{E}\) est calculée conditionnellement à partir de l'état \(s_t = s\) et de l'action \(a_t = a\).
+Cela signifie que la valeur optimale de l'état **$$s$$** est la meilleure valeur que l'agent peut obtenir en choisissant l'action optimale \(a\) dans cet état. L'espérance \(\mathbb{E}\) est calculée conditionnellement à partir de l'état **$$s_t = s$$** et de l'action **$$a_t = a$$**.
 
 ### Équation de Bellman pour Q-Learning
 
-L'équation de Bellman est directement liée à l'algorithme de **Q-Learning**, qui met à jour la fonction de valeur d'état-action \(Q(S, A)\) avec l'équation suivante :
+L'équation de Bellman est directement liée à l'algorithme de **Q-Learning**, qui met à jour la fonction de valeur d'état-action **$$Q(S, A)$$** avec l'équation suivante :
 
 $$
 Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left[ R_{t+1} + \gamma \max_{a} Q(S_{t+1}, a) - Q(S_t, A_t) \right]
