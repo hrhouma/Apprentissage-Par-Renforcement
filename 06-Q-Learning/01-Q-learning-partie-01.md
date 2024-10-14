@@ -60,3 +60,18 @@ L'algorithme **Q-Learning** est une méthode utilisée en **apprentissage par re
 - Un bon équilibre entre **exploration** et **exploitation** est crucial pour que l'agent devienne performant dans l'environnement.
 
 En bref, le **Q-Learning** aide un agent à apprendre de ses expériences tout en ajustant progressivement ses actions pour maximiser ses récompenses sur le long terme. 😊
+
+
+# Annexe 
+
+![image](https://github.com/user-attachments/assets/0f2939f7-b44a-4227-97a0-fbfada980675)
+
+![image](https://github.com/user-attachments/assets/ff4b6d78-8d10-4cd7-a7af-e43370bd2112)
+
+![image](https://github.com/user-attachments/assets/11d3b991-7b2f-457a-879a-34da8d548789)
+
+--------------------------
+# Référence:
+--------------------------
+https://www.assemblyai.com/blog/reinforcement-learning-with-deep-q-learning-explained/
+
