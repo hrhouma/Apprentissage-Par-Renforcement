@@ -7,8 +7,6 @@ Le **TD-Learning** (ou Apprentissage par Différence Temporelle) est une méthod
 ### Pourquoi est-ce utile ?
 TD-Learning est utile lorsque vous n'avez pas besoin d'attendre la fin d'un épisode (comme une partie de jeu) pour apprendre. Vous apprenez au fur et à mesure.
 
----
-
 ## 2. L'équation principale de TD(0)
 
 L'algorithme TD(0) est l'une des versions les plus simples de TD-Learning. Il met à jour la valeur d'un état après chaque action.
@@ -21,49 +19,17 @@ $$
 
 ### Explication des termes :
 - $$ V(S_t) $$ : la **valeur** de l'état actuel $$ S_t $$
-- \( R_{t+1} \) : la **récompense immédiate** reçue après l'action.
-- \( \alpha \) : le **taux d'apprentissage**, un nombre compris entre 0 et 1 qui contrôle à quelle vitesse l'agent apprend.
-- \( \gamma \) : le **facteur de discount** (ou de dépréciation), un nombre compris entre 0 et 1, qui réduit l'importance des récompenses futures. Plus \( \gamma \) est proche de 1, plus l'agent valorise les récompenses futures.
+- $$ R_{t+1} $$ : la **récompense immédiate** reçue après l'action
+- $$ \alpha $$ : le **taux d'apprentissage**, un nombre compris entre 0 et 1 qui contrôle à quelle vitesse l'agent apprend
+- $$ \gamma $$ : le **facteur de discount** (ou de dépréciation), un nombre compris entre 0 et 1, qui réduit l'importance des récompenses futures. Plus $$ \gamma $$ est proche de 1, plus l'agent valorise les récompenses futures
 
 **En termes simples**, cela signifie que l'agent met à jour sa compréhension de l'état actuel en tenant compte de la récompense qu'il vient de recevoir et de la valeur de l'état suivant.
-
-
-
-
-
-
-
-
-
-
-Je vois le problème avec l'affichage des équations en LaTeX. Voici la version corrigée pour que les équations soient correctement affichées avec les doubles signes $$ pour le format bloc et les simples signes \( \) pour les formules en ligne. Voici la section corrigée :
-
----
-
-### Explication des termes :
-
-- \( V(S_t) \) : la **valeur** de l'état actuel \( S_t \).
-- \( R_{t+1} \) : la **récompense immédiate** reçue après l'action.
-- \( \alpha \) : le **taux d'apprentissage**, un nombre compris entre 0 et 1 qui contrôle à quelle vitesse l'agent apprend.
-- \( \gamma \) : le **facteur de discount** (ou de dépréciation), un nombre compris entre 0 et 1, qui réduit l'importance des récompenses futures. Plus \( \gamma \) est proche de 1, plus l'agent valorise les récompenses futures.
-
----
-
-Le problème venait de l'utilisation incorrecte des doubles $$ pour les formules en ligne. Pour une formule en ligne (dans une phrase), il faut utiliser des parenthèses simples avec des barres obliques inverses \( \). Pour des équations en mode bloc (sur une nouvelle ligne), on utilise les doubles $$.
-
-Cela devrait maintenant résoudre les soucis de mise en forme.
-
-
-
----
 
 ## 3. Comparaison entre TD-Learning et Monte Carlo
 
 Dans les méthodes de **Monte Carlo**, l'agent doit attendre **la fin de l'épisode** (par exemple, la fin d'une partie) pour ajuster la valeur de ses états.
 
 Avec **TD-Learning**, l'agent ajuste immédiatement après chaque étape, ce qui est beaucoup plus rapide dans des environnements où les épisodes sont longs ou infinis.
-
----
 
 ## 4. Exemple avec des dés : Estimation d'une Valeur Attendue
 
@@ -77,9 +43,7 @@ $$
 
 Cela signifie que si vous lancez un dé de manière infinie, la moyenne des valeurs sera **3.5**.
 
----
-
-### 5. Estimation empirique avec du code Python
+## 5. Estimation empirique avec du code Python
 
 Voici un code Python qui **simule** le lancer d'un dé et estime la valeur attendue après un certain nombre de lancers. Nous afficherons la **moyenne empirique** après chaque lancer.
 
@@ -120,11 +84,9 @@ estimate_expected_value(10000)
 - **running_average** : garde une trace de la moyenne des résultats après chaque lancer.
 - Le graphe montre la convergence vers la valeur théorique de **3.5** au fur et à mesure que le nombre de lancers augmente.
 
----
-
 ## 6. Q-Learning : Une Extension de TD-Learning
 
-Le **Q-Learning** est une version plus avancée du TD-Learning où l'on apprend non seulement la valeur des états, mais aussi la valeur des **paires état-action** \( (S, A) \). Cela permet de choisir les actions optimales dans chaque état.
+Le **Q-Learning** est une version plus avancée du TD-Learning où l'on apprend non seulement la valeur des états, mais aussi la valeur des **paires état-action** $$ (S, A) $$. Cela permet de choisir les actions optimales dans chaque état.
 
 L'équation de mise à jour du **Q-Learning** est :
 
@@ -134,9 +96,6 @@ $$
 
 Cela signifie que l'agent apprend quelle est la meilleure action à prendre dans un état donné, en tenant compte de la récompense immédiate et des actions futures.
 
----
-
 ## 7. Conclusion
 
 Le **TD-Learning** est une méthode puissante pour l'apprentissage en temps réel dans des environnements dynamiques. Contrairement à d'autres méthodes, il permet d'ajuster les valeurs au fur et à mesure, sans avoir besoin d'attendre la fin de l'épisode. **Q-Learning** en est une version améliorée qui permet d'apprendre directement des actions optimales.
-
