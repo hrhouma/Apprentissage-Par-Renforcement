@@ -311,7 +311,7 @@ Dans les cas de **politiques optimales** (optimisation de l'agent), l'équation 
 
 $$
 V^*(S) = \max_a \mathbb{E} \left[ R_{t+1} + \gamma V^*(S_{t+1}) \right]
-$$
+$$**
 
 Cela exprime que la valeur optimale de l'état **$$S$$** est la meilleure valeur que l'agent peut obtenir en choisissant l'action optimale.
 
