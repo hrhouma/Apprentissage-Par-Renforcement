@@ -17,9 +17,23 @@ En termes simples, cela signifie que l'agent met à jour sa compréhension de l'
 
 Assurez-vous que votre plateforme supporte le rendu des équations en LaTeX.
 
+
+Voici comment reformater l'explication des termes sous forme de tableau ASCII :
+
+```
+| Terme          | Description                                                                                     |
+|----------------|-------------------------------------------------------------------------------------------------|
+| $$ V(S_t) $$   | Valeur de l'état actuel $$ S_t $$                                                               |
+| $$ R_{t+1} $$  | Récompense immédiate reçue après l'action                                                       |
+| $$ \alpha $$   | Taux d'apprentissage, un nombre compris entre 0 et 1 qui contrôle à quelle vitesse l'agent apprend |
+| $$ \gamma $$   | Facteur de discount (ou de dépréciation), un nombre compris entre 0 et 1, qui réduit l'importance des récompenses futures. Plus $$ \gamma $$ est proche de 1, plus l'agent valorise les récompenses futures |
+```
+
+Assurez-vous que votre plateforme supporte le rendu des équations en LaTeX pour que les formules s'affichent correctement.
+
 Citations:
 [1] https://pplx-res.cloudinary.com/image/upload/v1728874976/user_uploads/szareivvb/image.jpg
-# Introduction à TD-Learning (Temporal Difference Learning)
+
 
 ## 1. Qu'est-ce que TD-Learning ?
 
