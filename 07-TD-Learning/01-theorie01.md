@@ -184,7 +184,7 @@ $$
 V(S_t) \leftarrow V(S_t) + \alpha \left[ \sum_{k=1}^{n} \gamma^{k-1} R_{t+k} + \gamma^n V(S_{t+n}) - V(S_t) \right]
 $$
 
-Ici, \( \sum_{k=1}^{n} \gamma^{k-1} R_{t+k} \) représente la somme pondérée des récompenses jusqu'à \(n\) étapes.
+Ici, **$$\sum_{k=1}^{n} \gamma^{k-1} R_{t+k}$$** représente la somme pondérée des récompenses jusqu'à **$$n$$** étapes.
 
 ### Q-Learning — Apprentissage des paires état-action
 
