@@ -132,6 +132,22 @@ Voici un tableau comparatif des méthodes TD(0), TD(1), TD(2), et Q-Learning :
 | Q-Learning   | Off-policy | Paire état-action                          | \( Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha [R_{t+1} + \gamma \max Q(S_{t+1}, a) - Q(S_t, A_t)] \) | Efficace pour trouver une politique optimale       | Nécessite un plus grand espace de stockage |
 ```
 
+Il semble que le rendu des équations en LaTeX ne fonctionne pas correctement. Voici comment reformater les équations dans le tableau sans utiliser de LaTeX, pour un affichage correct en texte brut :
+
+```
+| Méthode      | Type       | Mise à jour de la valeur                   | Équation                                                                 | Avantages                                           | Inconvénients                         |
+|--------------|------------|--------------------------------------------|--------------------------------------------------------------------------|-----------------------------------------------------|---------------------------------------|
+| TD(0)        | On-policy  | État uniquement                            | V(S_t) ← V(S_t) + α [R_{t+1} + γ V(S_{t+1}) - V(S_t)]                    | Simple, rapide                                      | Ne considère qu’un seul pas           |
+| TD(1)        | N-step     | État et prochaines récompenses             | V(S_t) ← V(S_t) + α [Σ R_{t+i} + γ^i V(S_{t+i})]                         | Mieux pour de courtes époques                      | Complexité plus élevée                |
+| TD(2)        | N-step     | État et plusieurs récompenses              | V(S_t) ← V(S_t) + α [Σ R_{t+i} + γ^i V(S_{t+i})]                         | Équilibre entre exploration et exploitation         | Peut être lent                        |
+| Q-Learning   | Off-policy | Paire état-action                          | Q(S_t, A_t) ← Q(S_t, A_t) + α [R_{t+1} + γ max Q(S_{t+1}, a) - Q(S_t, A_t)] | Efficace pour trouver une politique optimale       | Nécessite un plus grand espace de stockage |
+```
+
+En utilisant cette méthode, les équations devraient s'afficher correctement dans un fichier texte ou un README sans support LaTeX.
+
+Citations:
+[1] https://pplx-res.cloudinary.com/image/upload/v1728874976/user_uploads/szareivvb/image.jpg
+
 ## Anenxe 3 - **TD(0)**  vs **TD(1)** vs **TD(2)** 
 
 - **TD(0)** : Met à jour la valeur d'un état immédiatement après chaque action, en utilisant la récompense immédiate et la valeur de l'état suivant.
