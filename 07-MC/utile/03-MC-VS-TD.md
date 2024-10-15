@@ -47,7 +47,7 @@ Maintenant, pour apprendre à jouer au jeu, il existe différentes façons d'am�
 
 ---
 
-### 5. **Conclusion simple pour tes étudiants**
+### 5. **Conclusion simple**
 - **Monte Carlo (MC)** : Apprend après avoir tout vu, **partie complète**, puis change ta stratégie.
 - **Temporal Difference (TD)** : Apprend **petit à petit** à chaque étape, tu fais des ajustements **en temps réel**.
 
