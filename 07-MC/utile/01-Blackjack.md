@@ -63,3 +63,9 @@ Le Blackjack peut avoir plusieurs variantes :
 Bien que non autorisé dans les casinos, le comptage de cartes est une technique utilisée pour suivre les cartes déjà distribuées et prédire la probabilité de tirer certaines cartes, donnant ainsi un avantage aux joueurs sur le long terme.
 
 Le Blackjack combine **chance et stratégie**, ce qui en fait un jeu particulièrement apprécié des amateurs de jeux de table dans les casinos du monde entier.
+
+# Dans le **Blackjack**, chaque joueur joue **contre le croupier** ?
+
+Exactement, dans le **Blackjack**, chaque joueur joue **contre le croupier**, pas contre les autres joueurs. Chaque joueur à la table cherche à battre le croupier en ayant une main plus proche de 21 sans la dépasser. Peu importe ce que les autres joueurs ont en main, le seul adversaire est le croupier.
+
+Ainsi, plusieurs joueurs peuvent gagner en même temps si leurs mains sont meilleures que celle du croupier, ou perdre simultanément si le croupier a une meilleure main ou si les joueurs dépassent 21. Le jeu est donc principalement une compétition entre chaque joueur et le croupier, et non une compétition entre les joueurs eux-mêmes.
