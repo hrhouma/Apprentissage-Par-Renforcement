@@ -55,4 +55,3 @@ $$
 
 - α : taux d'apprentissage (learning rate), qui détermine dans quelle mesure la nouvelle information affecte l'ajustement de la valeur Q.
 
-Cette explication unifie vos demandes en intégrant chaque équation et sa description, formatée pour un fichier README.md.
