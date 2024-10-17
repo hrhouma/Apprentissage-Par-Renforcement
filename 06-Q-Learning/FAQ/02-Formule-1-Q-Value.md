@@ -1,4 +1,4 @@
-# Les deux formes de **$Q(s, a)**
+# Les deux formes de **$$Q(s, a)$$**
 
 Dans le cadre du Q-learning, la mise à jour de la fonction **Q(s, a)** se fait selon deux formules couramment utilisées, en fonction de la manière dont on pondère l'apprentissage entre la nouvelle information et l'estimation précédente.
 
