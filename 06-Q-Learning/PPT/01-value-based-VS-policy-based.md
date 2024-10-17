@@ -1,5 +1,5 @@
 
-## Cours : Différence entre **Value-Based** et **Policy-Based** en Apprentissage par Renforcement
+# Différence entre **Value-Based** et **Policy-Based** en Apprentissage par Renforcement
 
 L'apprentissage par renforcement (RL) comporte deux grandes approches : **Value-Based** et **Policy-Based**. Ces méthodes ont des stratégies distinctes pour optimiser le comportement d'un agent dans un environnement. Nous allons détailler chacune d'elles et utiliser des équations pour mieux comprendre leur fonctionnement.
 
@@ -58,9 +58,9 @@ Chaque approche a ses avantages et ses inconvénients, et le choix dépend souve
 
 
 
-
+-------------
 # Annexe 1 - Value-based VS Policy-based
-
+-------------
 
 ## Méthodes basées sur la valeur (Value-based)
 
@@ -122,8 +122,9 @@ Les méthodes basées sur la politique apprennent directement la meilleure actio
 
 Le choix entre ces deux approches dépend souvent de la nature spécifique du problème à résoudre, de la complexité de l'environnement et des objectifs de l'agent.
 
-
+-------------
 # Annexe 2 - Explication simplifiée de la différence entre **Value-Based** et **Policy-Based** en apprentissage par renforcement.
+-------------
 
 ### 1. **Value-Based : On apprend combien une action vaut**
 Imagine que tu joues à un jeu, et tu veux savoir si une action est bonne ou mauvaise. Dans l'approche **Value-Based**, tu vas essayer d’**évaluer chaque action** en fonction de la récompense totale que tu pourrais obtenir en la choisissant. 
@@ -142,9 +143,9 @@ Dans l’approche **Policy-Based**, tu ne te soucies pas de savoir combien vaut 
 
 En gros, **Value-Based** te fait dire "Quel est le meilleur choix ici ?" alors que **Policy-Based** te fait dire "Voilà ce que je dois faire dans cette situation !"
 
-
+-------------
 # Annexe 3 - Résumé
-
+-------------
 
 ### Différence entre **Value-Based** et **Policy-Based** en Apprentissage par Renforcement
 
