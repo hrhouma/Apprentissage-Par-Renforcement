@@ -1,4 +1,62 @@
 
+## Cours : Différence entre **Value-Based** et **Policy-Based** en Apprentissage par Renforcement
+
+L'apprentissage par renforcement (RL) comporte deux grandes approches : **Value-Based** et **Policy-Based**. Ces méthodes ont des stratégies distinctes pour optimiser le comportement d'un agent dans un environnement. Nous allons détailler chacune d'elles et utiliser des équations pour mieux comprendre leur fonctionnement.
+
+### 1. **Value-Based : Comment l'agent doit-il se comporter dans une situation donnée ?**
+
+#### Principe de base
+Dans l'approche **Value-Based**, l'agent cherche à **évaluer la valeur** des actions qu'il peut entreprendre dans chaque état, plutôt que d'apprendre directement une politique optimale. L'idée est de calculer la récompense attendue cumulée pour chaque action et d'utiliser cette information pour choisir les actions qui maximisent cette récompense.
+
+#### Objectif
+L'agent **Value-Based** apprend une **fonction de valeur** qui estime la somme des récompenses futures attendues à partir d'un état donné, en prenant des décisions optimales par la suite.
+
+#### Exemple d'algorithme : **Q-Learning**
+Le **Q-Learning** est un exemple typique d'algorithme **Value-Based**. L'agent apprend une fonction de valeur appelée **fonction Q**, qui mesure la qualité d'une action a prise dans un état s. L'objectif est de mettre à jour cette fonction au fil des interactions avec l'environnement, afin de converger vers la meilleure politique.
+
+L'équation de mise à jour de **Q-Learning** est :
+
+$$Q(s, a) \leftarrow Q(s, a) + \alpha \left( r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right)$$
+
+- s : état actuel
+- a : action choisie
+- r : récompense immédiate
+- α : taux d'apprentissage (entre 0 et 1), qui contrôle à quelle vitesse l'agent ajuste ses valeurs
+- γ : facteur de discount (entre 0 et 1), qui pondère l'importance des récompenses futures
+- max_{a'} Q(s', a') : meilleure valeur d'action possible à partir du prochain état s'
+
+En somme, l'algorithme met à jour Q(s, a) en fonction de la récompense immédiate r et de l'estimation future des meilleures actions possibles.
+
+### 2. **Policy-Based : Quelle est la meilleure action à prendre dans chaque situation ?**
+
+#### Principe de base
+Dans l'approche **Policy-Based**, l'agent n'évalue pas les actions pour calculer leurs valeurs futures. Au lieu de cela, il apprend **directement une politique** qui lui dit quelle action prendre dans chaque état, sans passer par une fonction de valeur. La politique π(a|s) représente la probabilité de prendre l'action a dans l'état s.
+
+#### Objectif
+L'agent ajuste **directement** la politique pour maximiser la récompense totale, sans avoir besoin d'évaluer chaque action. L'optimisation de la politique se fait généralement à l'aide de méthodes comme **REINFORCE** ou **Actor-Critic**, où l'agent apprend à renforcer les actions qui mènent à de bonnes récompenses.
+
+#### Exemple d'algorithme : **REINFORCE**
+L'algorithme **REINFORCE** est un exemple d'algorithme **Policy-Based** qui ajuste directement les paramètres de la politique π(a|s) pour maximiser les récompenses cumulées. La mise à jour se fait en ajustant la probabilité de choisir certaines actions en fonction des récompenses observées :
+
+$$\theta \leftarrow \theta + \alpha \nabla_\theta \log \pi_\theta(a|s) G_t$$
+
+- θ : les paramètres de la politique
+- α : taux d'apprentissage
+- log π_θ(a|s) : la probabilité d'une action donnée selon la politique
+- G_t : la somme des récompenses futures obtenues après avoir pris l'action a
+
+### Différence clé entre **Value-Based** et **Policy-Based**
+
+- **Value-Based** : L'agent évalue les actions en estimant la valeur de chaque état-action (ex. Q(s, a)) et optimise indirectement la politique en choisissant l'action qui maximise la valeur estimée.
+- **Policy-Based** : L'agent apprend **directement** la politique optimale sans passer par une fonction de valeur, en ajustant les probabilités de chaque action pour maximiser les récompenses.
+
+### Conclusion
+- **Value-Based** répond à la question : "Quelle est la meilleure action à prendre dans cet état en termes de récompense future ?"
+- **Policy-Based** répond à la question : "Comment ajuster directement la politique pour maximiser les récompenses, sans passer par l'évaluation des actions ?"
+
+Chaque approche a ses avantages et ses inconvénients, et le choix dépend souvent du problème à résoudre. Les méthodes **Policy-Based** sont souvent plus efficaces lorsque l'espace d'action est vaste ou continu, tandis que les méthodes **Value-Based** sont adaptées pour des environnements avec un nombre d'actions discret et un espace d'état bien défini.
+
+
 
 
 # Annexe 1 - Value-based VS Policy-based
