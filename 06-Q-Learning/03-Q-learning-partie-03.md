@@ -28,10 +28,12 @@
 #### 3. **Prends en compte la nature de ton problème :**
    - Si ton problème est **très complexe** ou que ton environnement **change souvent**, alors un **α dynamique** pourrait fonctionner mieux.
    - Cela veut dire que tu diminues progressivement **α** au fil du temps pour que ton agent devienne de plus en plus conservateur dans ses décisions.
-   - Formule magique pour ça :
-     $$
-     \alpha(t) = \frac{1}{1+t}
-     $$
+   - Formule magique pour ça
+
+$$
+\alpha(t) = \frac{1}{1+t}
+$$
+
      - Au début, **α** est grand, ce qui permet d'apprendre rapidement. Puis, au fil du temps, **α** diminue, ce qui stabilise l'agent.
 
 ---
