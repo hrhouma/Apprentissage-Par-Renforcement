@@ -1,18 +1,14 @@
-
-
 ### 1. Bellman Equation
 
-$$
-Q(S_1, \text{right})_{\text{observed}} = R(S_2) + \gamma \max_{a} Q(S_2, a)
-$$
+```latex
+Q(S_1, right)_observed = R(S_2) + γ max_a Q(S_2, a)
+```
 
 ### 2. TD Error
 
-$$
-\text{TD Error} = Q(S_1, \text{right})_{\text{observed}} - Q(S_1, \text{right})_{\text{expected}}
-$$
-
-
+```latex
+TD Error = Q(S_1, right)_observed - Q(S_1, right)_expected
+```
 
 ### 3. Update Rule
 
@@ -20,30 +16,34 @@ $$
 Q(S_1, \text{right}) = Q(S_1, \text{right}) + \alpha \times \text{TD Error}
 $$
 
-
+-------------------------------
+# Annexe - explications
+-------------------------------
 
 
 ### 1. Équation de Bellman
 
-L'équation de Bellman est utilisée dans le cadre des algorithmes de contrôle et de décision, notamment dans le **Q-Learning**. Elle exprime la relation entre la valeur actuelle de la fonction Q et la récompense attendue en fonction de l'état futur S_2, pondérée par un facteur d'actualisation γ. Elle est utilisée pour mettre à jour les valeurs des états dans les algorithmes de renforcement afin de maximiser les récompenses futures.
+L'équation de Bellman est utilisée dans le cadre des algorithmes de contrôle et de décision, notamment dans le **Q-Learning**. Elle exprime la relation entre la valeur actuelle de la fonction Q et la récompense attendue en fonction de l'état futur S_2, pondérée par un facteur d'actualisation γ.
 
-$$
-Q(S_1, \text{right})_{\text{observed}} = R(S_2) + \gamma \max_{a} Q(S_2, a)
-$$
+```latex
+Q(S_1, right)_observed = R(S_2) + γ max_a Q(S_2, a)
+```
 
 - S_1 : état initial.
 - S_2 : état suivant après avoir pris l'action "right".
 - R(S_2) : récompense associée à l'état S_2.
 - γ : facteur d'actualisation (discount factor).
-- max_{a} Q(S_2, a) : meilleure valeur Q possible pour l'état S_2 en prenant la meilleure action a.
+- max_a Q(S_2, a) : meilleure valeur Q possible pour l'état S_2 en prenant la meilleure action a.
 
 ### 2. Erreur de différence temporelle (TD Error)
 
-L'erreur de différence temporelle (TD Error) est utilisée pour mesurer la différence entre la valeur Q observée après une mise à jour et la valeur Q attendue avant l'observation. Elle sert à ajuster les valeurs Q dans les algorithmes de renforcement.
+L'erreur de différence temporelle (TD Error) est utilisée pour mesurer la différence entre la valeur Q observée après une mise à jour et la valeur Q attendue avant l'observation.
 
-$$
-\text{TD Error} = Q(S_1, \text{right})_{\text{observed}} - Q(S_1, \text{right})_{\text{expected}}
-$$
+```latex
+TD Error = Q(S_1, right)_observed - Q(S_1, right)_expected
+```
+
+
 
 ### 3. Règle de mise à jour (Update Rule)
 
