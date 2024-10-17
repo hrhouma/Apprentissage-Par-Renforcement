@@ -34,7 +34,9 @@ $$
 \alpha(t) = \frac{1}{1+t}
 $$
 
-     - Au début, **α** est grand, ce qui permet d'apprendre rapidement. Puis, au fil du temps, **α** diminue, ce qui stabilise l'agent.
+
+- Au début, **α** est grand, ce qui permet d'apprendre rapidement. Puis, au fil du temps, **α** diminue, ce qui stabilise l'agent.
+
 
 ---
 
