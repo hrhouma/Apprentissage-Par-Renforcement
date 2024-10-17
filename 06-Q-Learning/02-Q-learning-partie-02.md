@@ -26,11 +26,13 @@
   Si vous ne connaissez pas bien votre environnement ou si vous démarrez un projet, commencer avec un **α = 0.5** est souvent une bonne stratégie. Cela donne une chance à l'agent d'apprendre de manière équilibrée, sans basculer trop d’un côté ou de l’autre entre exploration et exploitation.
 
 - **Ajustement progressif (ou décroissant)** :  
-  Une approche courante est de **faire décroître progressivement α** au fil du temps. Cela permet à l'agent d'explorer activement au début, lorsqu'il a peu de connaissances sur l'environnement, puis de devenir plus stable et conservateur en consolidant ce qu'il a appris. Une fonction de décroissance typique serait :  
-  $$
-  \alpha(t) = \frac{1}{1 + t}
-  $$
-  où **t** est le numéro de l'épisode. Cela fait en sorte que plus le temps passe, plus l'agent apprend à se stabiliser.
+  Une approche courante est de **faire décroître progressivement α** au fil du temps. Cela permet à l'agent d'explorer activement au début, lorsqu'il a peu de connaissances sur l'environnement, puis de devenir plus stable et conservateur en consolidant ce qu'il a appris. Une fonction de décroissance typique serait
+  
+$$
+\alpha(t) = \frac{1}{1 + t}
+$$
+
+ou **t** est le numéro de l'épisode. Cela fait en sorte que plus le temps passe, plus l'agent apprend à se stabiliser.
 
 - **Tester plusieurs valeurs (validation croisée)** :  
   Si vous travaillez sur un problème complexe ou dans un environnement incertain, vous pouvez tester plusieurs valeurs d'**alpha** et observer leur impact sur la performance. Comme montré dans les graphes ci-dessus, vous pouvez utiliser une approche empirique pour déterminer quelle valeur fonctionne le mieux.
