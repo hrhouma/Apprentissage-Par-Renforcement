@@ -1,0 +1,4 @@
+- https://www.youtube.com/watch?v=aCEvtRtNO-M
+- https://sharmaeklavya2.github.io/theoremdep/nodes/probability/markov-chains/chap-kol-eqn.html#:~:text=When%20has%20a%20finite%20state,%3D%20P%20(%20n%20)%20P%20.
+- https://www.youtube.com/watch?v=u6DJvaOkRS8&list=PLudTRP_Ek2aSi6ZBOKShVm7T1Uod6mBbQ&index=2
+- https://www.youtube.com/watch?v=TiAXhVAZQl8&list=PLTl9hO2Oobd9kS--NgVz0EPNyEmygV1Ha&index=6
