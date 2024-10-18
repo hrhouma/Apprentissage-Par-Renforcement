@@ -1,20 +1,20 @@
 # Réponses au Quiz-01
 
-1. **Qu'est-ce que le Q-learning ?**
+# 1. **Qu'est-ce que le Q-learning ?**
    - **Réponse : b) Un algorithme de renforcement**
    
    Le Q-learning est un algorithme d'apprentissage par renforcement, où un agent apprend à prendre des décisions optimales en interagissant avec un environnement. Il apprend à maximiser la récompense cumulative en essayant différentes actions dans différents états de l'environnement, ajustant ses décisions grâce à une fonction de valeur appelée "Q".
 
 ---
 
-2. **Dans Q-learning, que représente la fonction Q ?**
+# 2. **Dans Q-learning, que représente la fonction Q ?**
    - **Réponse : b) La valeur de la combinaison action-état**
    
    La fonction Q, ou Q-value, représente la valeur attendue de prendre une action particulière dans un état donné, en tenant compte de la récompense immédiate et des récompenses futures. Elle est utilisée pour guider l'agent dans le choix de ses actions.
 
 ---
 
-3. **Quelle est l'équation de mise à jour de Q dans Q-learning ?**
+# 3. **Quelle est l'équation de mise à jour de Q dans Q-learning ?**
    - **Réponse : a)** 
    
    $$ Q(s,a) = Q(s,a) + \alpha [r + \gamma \max Q(s',a') - Q(s,a)] $$
