@@ -25,6 +25,7 @@ L'objectif de cet exercice est de vous guider étape par étape à travers les d
 ```bash
 git clone https://github.com/hrhouma/RLCode2-1.git
 cd RLCode2-1
+pip install venv
 python3 -m venv mountain_car_env
 source mountain_car_env/bin/activate
 pip install -r requirements.txt
