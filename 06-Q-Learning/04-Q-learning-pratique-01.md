@@ -27,7 +27,8 @@ git clone https://github.com/hrhouma/RLCode2-1.git
 cd RLCode2-1
 pip install venv
 python3 -m venv mountain_car_env
-source mountain_car_env/bin/activate
+#source mountain_car_env/bin/activate
+mountain_car_env\Scripts\activate
 pip install -r requirements.txt
 python main.py
 deactivate
