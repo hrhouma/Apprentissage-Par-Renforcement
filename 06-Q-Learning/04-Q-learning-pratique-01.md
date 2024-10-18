@@ -34,6 +34,53 @@ python main.py
 deactivate
 ```
 
+-------------------
+# Troubleshooting
+-------------------
+
+#### 1 -  Exécutez le terminal en tant qu'administrateur
+#### 2 -  La vesrsion de python utilisée dans le cadre de ce projet est la suivante Python 3.11.9
+
+Si vous avez plusieurs versions de Python installées sur votre système et que vous souhaitez spécifiquement utiliser Python 3.11, exécutez la commande suivante pour créer un environnement virtuel avec cette version :
+
+```bash
+python3.11 -m venv mountain_car_env
+```
+
+### ==> Cela forcera l'utilisation de Python 3.11 pour l'environnement virtuel `mountain_car_env`."
+
+![image](https://github.com/user-attachments/assets/52d8a2b1-fe5c-4bba-a42e-42171fd219fc)
+
+
+
+#### 3 -  Vous pouvez avoir une erreur à cette étape (powershell)
+  
+```bash
+mountain_car_env\Scripts\activate
+```
+
+### Voici l'erreur 
+
+```bash
+mountain_car_env\Scripts\activate
+mountain_car_env\Scripts\activate : Impossible de charger le fichier
+C:\Users\rehou\Documents\RLCode2-1\mountain_car_env\Scripts\Activate.ps1, car
+l’exécution de scripts est désactivée sur ce système. Pour plus d’informations,
+consultez about_Execution_Policies à l’adresse
+https://go.microsoft.com/fwlink/?LinkID=135170.
+Au caractère Ligne:1 : 1
++ mountain_car_env\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : Erreur de sécurité : (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+```
+
+### Solution 
+
+```bash
+Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+```
+
 ---
 
 ### **2 - RLCode2-2** :
