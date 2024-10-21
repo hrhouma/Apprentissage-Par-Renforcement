@@ -1,16 +1,28 @@
-$$
-V^*(s) = \max_a \left( \sum_{s'} P(s' | s, a) \left[ r(s, a, s') + \gamma V^*(s') \right] \right)
-$$
+Il semble que l'équation ne soit pas correctement rendue dans le format où tu travailles, peut-être à cause du mauvais encodage ou de la manière dont le texte LaTeX est interprété par ton éditeur.
 
+Voici quelques pistes pour résoudre ce problème selon l'environnement dans lequel tu travailles :
 
-# Contenu de l'équation
+1. **Overleaf (ou tout autre éditeur LaTeX)** : Si tu utilises un éditeur LaTeX comme Overleaf, assure-toi d'utiliser les doubles signes dollar pour encadrer tes équations comme suit :
+   
+   ```latex
+   $$ V^*(s) = \max_a \left( \sum_{s'} P(s' | s, a) \left[ r(s, a, s') + \gamma V^*(s') \right] \right) $$
+   ```
 
-"""
-$$
-V^*(s) = \max_a \left( \sum_{s'} P(s' | s, a) \left[ r(s, a, s') + \gamma V^*(s') \right] \right)
-$$
+2. **Markdown avec MathJax** : Si tu utilises un éditeur Markdown qui supporte LaTeX via MathJax (comme Notion ou certaines configurations sur GitHub), assure-toi que les équations sont entourées par des signes dollar doubles pour le mode bloc et simples pour les équations en ligne :
 
-"""
+   ```markdown
+   $$ V^*(s) = \max_a \left( \sum_{s'} P(s' | s, a) \left[ r(s, a, s') + \gamma V^*(s') \right] \right) $$
+   ```
+
+3. **Jupyter Notebook** : Si tu travailles dans un Jupyter Notebook, tu peux directement inclure du LaTeX avec les signes dollar comme ceci :
+
+   ```python
+   from IPython.display import display, Math
+
+   display(Math(r"V^*(s) = \max_a \left( \sum_{s'} P(s' | s, a) \left[ r(s, a, s') + \gamma V^*(s') \right] \right)"))
+   ```
+
+Si cela ne résout pas le problème, pourrais-tu préciser l'outil ou l'environnement dans lequel tu rédiges ces équations pour mieux comprendre la source du problème ?
 
 
 
