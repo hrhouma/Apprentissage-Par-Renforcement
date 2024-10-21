@@ -22,7 +22,7 @@ $$
 
 **b) Calcul de la valeur optimale \( V^*(S) \) pour l'état initial \( S \) en utilisant l'équation de Bellman :**
 
-L'équation de Bellman pour un état \( s \) est donnée par :
+L'équation de Bellman pour un état \( s \) est donnée par
 
 $$
 V^*(s) = \max_a \left( \sum_{s'} P(s' | s, a) \left[ r(s, a, s') + \gamma V^*(s') \right] \right)
@@ -33,7 +33,7 @@ Nous allons calculer \( V^*(S) \) pour l'état initial \( S \). Les transitions 
 - Vers la droite (état neutre avec récompense 0)
 - Vers le bas (case avec récompense -1)
 
-Ainsi, l'équation de Bellman pour \( S \) devient :
+Ainsi, l'équation de Bellman pour $$S$$ devient :
 
 $$
 V^*(S) = \max \left( 0 + 0.9 V^*(0), -1 + 0.9 V^*(-1) \right)
@@ -75,7 +75,9 @@ Cela rend le problème plus complexe car l'agent doit désormais tenir compte de
 -----------
 
 
-Voici les équations corrigées :
+
+
+Je comprends votre préoccupation. Voici les équations corrigées avec le formatage LaTeX approprié :
 
 **a) Fonction de récompense $$r(s, a, s')$$ pour ce MDP :**
 
@@ -117,4 +119,4 @@ $$
 V^*(s) = \max_a \left( 0.8 \sum_{s'} P(s' | s, a) \left[ r(s, a, s') + \gamma V^*(s') \right] + 0.2 \sum_{\text{aléatoire}} P(s' | s, a_{\text{aléatoire}}) \left[ r(s, a_{\text{aléatoire}}, s') + \gamma V^*(s') \right] \right)
 $$
 
-Ces équations sont maintenant correctement formatées en LaTeX, entourées de doubles signes dollar ($$) pour assurer leur rendu approprié.
+Ces équations sont maintenant correctement formatées en LaTeX, utilisant les doubles signes dollar ($$) pour le mode mathématique en ligne.
