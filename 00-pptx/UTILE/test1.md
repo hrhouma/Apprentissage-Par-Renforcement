@@ -116,7 +116,6 @@ L'agent choisit de se déplacer **vers la droite**, atteignant ainsi l'état **S
 
 ---
 
-**Instructions :**
+### Instructions :
 - Calculez la nouvelle valeur de **Q(S1, droite)** en appliquant la mise à jour de la Q-table.
 - Indiquez les étapes de votre raisonnement, et montrez comment vous avez utilisé les récompenses et le taux d'apprentissage pour ajuster cette valeur.
-
