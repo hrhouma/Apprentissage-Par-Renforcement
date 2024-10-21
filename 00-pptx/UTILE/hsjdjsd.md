@@ -4,7 +4,8 @@ $$
 
 
 # Contenu de l'équation
-content = """
+
+"""
 $$
 V^*(s) = \max_a \left( \sum_{s'} P(s' | s, a) \left[ r(s, a, s') + \gamma V^*(s') \right] \right)
 $$
