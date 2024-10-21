@@ -19,9 +19,16 @@ L'examen est noté sur **100 points** répartis comme suit :
   - Mises à jour de Q-table et raisonnement détaillé.
 
 
------------
-# Partie 1 de l'examen : Questions à choix multiples 
------------
+
+
+
+
+
+
+------------------
+# **Partie 1 : Questions à choix multiples (20 points)**
+
+
 
 ### 1. Qu'est-ce qu'un Processus de Décision Markovien (MDP) ?
    
@@ -76,9 +83,10 @@ L'examen est noté sur **100 points** répartis comme suit :
    d) Il n'y a pas de différence, ce sont des synonymes
 
 
------------
-# Partie 2 de l'examen: Questions à réponse courte (10 points chacune)
------------
+------------------
+# **Partie 2 : Questions à réponse courte (30 points)**
+
+
 
 #### 6. Expliquez la différence entre un environnement dynamique et un environnement statique en apprentissage par renforcement.
    
@@ -95,9 +103,11 @@ L'examen est noté sur **100 points** répartis comme suit :
 #### 10. Décrivez brièvement l'algorithme d'itération de valeur (value iteration). Quel est son objectif principal ?
     
 
------------
-# Partie 3 de l'examen : Problème pratique 1
------------
+------------------
+# **Partie 3 : Problème pratique 1 (20 points)**
+
+
+
 
 ###  11. Considérez le MDP suivant représentant un petit labyrinthe :
 
@@ -123,9 +133,9 @@ S est l'état initial, G est l'état but (récompense +10), les cases marquées 
 
 
 
------------
-# Partie 4 de l'examen : Problème pratique 2
------------
+------------------
+# **Partie 4 : Problème pratique 2 (30 points)**
+
 
 
 ## Contexte
