@@ -1,4 +1,8 @@
-# Exercice : Mise à jour de la Q-table
+# Exercice : 
+-----------
+# Partie  : Mise à jour de la Q-table
+-----------
+
 
 ### Contexte
 Dans cet exercice, vous allez utiliser les concepts de **Q-learning** pour mettre à jour une Q-table en fonction des décisions prises par un agent évoluant dans un environnement de grille (Grid World). L'agent devra apprendre une **politique cible** en explorant cet environnement.
@@ -119,3 +123,67 @@ L'agent choisit de se déplacer **vers la droite**, atteignant ainsi l'état **S
 ### Instructions :
 - Calculez la nouvelle valeur de **Q(S1, droite)** en appliquant la mise à jour de la Q-table.
 - Indiquez les étapes de votre raisonnement, et montrez comment vous avez utilisé les récompenses et le taux d'apprentissage pour ajuster cette valeur.
+
+
+
+
+
+-----------
+# Partie 2 : Déplacement supplémentaire et mise à jour de la Q-table
+-----------
+
+### Contexte
+Après avoir mis à jour la valeur de **Q(S1, droite)**, l'agent continue à se déplacer. Cette fois-ci, depuis l'état **S2**, l'agent choisit de se déplacer **vers la droite**, atteignant ainsi l'état **S3**.
+
+---
+
+### #1 Déplacement de l'agent depuis S2
+
+Le robot **(🤖)** est actuellement dans l'état **S2**. L'agent peut se déplacer vers la gauche, vers la droite, ou vers le bas. Il choisit de se déplacer **vers la droite** pour atteindre **S3**.
+
+```
++----+----+----+----+
+| -1 | 🤖 S2 → | S3 -1 |
++----+----+----+----+
+| -1 | -1 | -1 | -1 |
++----+----+----+----+
+| -1 | -10 | +10| -1 |
++----+----+----+----+
+```
+
+L'agent choisit de se déplacer **vers la droite**, atteignant ainsi l'état **S3**.
+
+---
+
+### #2 Mise à jour de la Q-table
+
+Après ce nouveau déplacement, vous devez maintenant mettre à jour la valeur de **Q(S2, droite)** dans la Q-table.
+
+#### Question :
+Mettez à jour la valeur de **Q(S2, droite)** en appliquant à nouveau vos connaissances du Q-learning. Référez-vous à vos notes de cours pour effectuer cette mise à jour.
+
+- **Alpha** (taux d'apprentissage) : 0.1
+- **Récompenses** : Toutes les récompenses sont de **-1**, sauf pour les états terminaux où les récompenses sont **-10** et **+10**.
+- **Bruit** : Aucun bruit.
+
+Voici la Q-table à compléter :
+
+```
++----+--------+--------+------+-------+
+| Q  | gauche | droite |  haut | bas  |
++----+--------+--------+------+-------+
+| S1 |  -0.5  |   ?    |  2.1 |  1.3  |
++----+--------+--------+------+-------+
+| S2 |   0.5  |   ?    | -0.5 |  1.5  |
++----+--------+--------+------+-------+
+| S6 |  -1.2  |   1.2  |  0.7 |  1.7  |
++----+--------+--------+------+-------+
+```
+
+---
+
+### Instructions :
+- Calculez la nouvelle valeur de **Q(S2, droite)** en appliquant la mise à jour de la Q-table.
+- Expliquez les étapes de votre raisonnement et montrez comment vous avez utilisé les récompenses et le taux d'apprentissage pour ajuster cette valeur.
+
+
