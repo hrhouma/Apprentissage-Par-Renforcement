@@ -148,7 +148,7 @@ Dans cet exercice, vous allez utiliser les concepts de **Q-learning** pour mettr
 
 ---
 
-# Partie 1 : Mise à jour de la Q-table après un déplacement initial
+## Partie 4-1 : Mise à jour de la Q-table après un déplacement initial
 
 ### Étape 1 : Q-table initiale
 
@@ -252,7 +252,7 @@ L'agent choisit de se déplacer **vers la droite**, atteignant ainsi l'état **S
 
 ---
 
-# Partie 2 : Déplacement supplémentaire et mise à jour de la Q-table
+## Partie 4-2 : Déplacement supplémentaire et mise à jour de la Q-table
 
 ### Étape 1 : Déplacement supplémentaire de l'agent
 
@@ -298,7 +298,7 @@ Voici la Q-table à compléter :
 
 ---
 
-# Partie 3 : Réévaluer dans un environnement stochastique
+## Partie 4-3 : Réévaluer dans un environnement stochastique
 
 Dans cette partie, vous allez réévaluer les résultats des **Parties 1 et 2**, mais cette fois-ci dans un **environnement stochastique**.
 
