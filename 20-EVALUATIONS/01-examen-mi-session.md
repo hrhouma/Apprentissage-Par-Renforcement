@@ -229,6 +229,7 @@ L'agent choisit de se déplacer **vers la droite**, atteignant ainsi l'état **S
 **Question :** En utilisant vos connaissances du Q-learning (référez-vous à vos notes de cours), mettez à jour la valeur de **Q(S1, droite)**, initialement à **1**, dans la Q-table ci-dessous.
 
 - **Alpha** (taux d'apprentissage) : 0.1
+- **discount γ** : 0.1
 - **Récompenses** : Toutes les récompenses sont de **-1**, sauf pour les états terminaux où les récompenses sont **-10** et **+10**.
 - **Bruit** : Aucun bruit.
 
