@@ -70,3 +70,51 @@ V^*(s) = \max_a \left( 0.8 \sum_{s'} P(s' | s, a) \left[ r(s, a, s') + \gamma V^
 $$
 
 Cela rend le problème plus complexe car l'agent doit désormais tenir compte de la probabilité d'atterrir dans des pièges même en suivant la meilleure stratégie.
+
+
+-----------
+
+
+Voici les équations corrigées :
+
+**a) Fonction de récompense $$r(s, a, s')$$ pour ce MDP :**
+
+La fonction de récompense $$r(s, a, s')$$ indique la récompense que l'agent reçoit en passant de l'état $$s$$ à l'état $$s'$$ en effectuant l'action $$a$$. Voici la fonction de récompense pour chaque transition possible dans le labyrinthe :
+
+$$
+r(s, a, s') = \begin{cases} 
++10, & \text{si } s' = G \\
+-1, & \text{si } s' \text{ est une case piège} \\
+0, & \text{si } s' \text{ est une case neutre ou sortie du labyrinthe}
+\end{cases}
+$$
+
+**b) Calcul de la valeur optimale $$V^*(S)$$ pour l'état initial $$S$$ en utilisant l'équation de Bellman :**
+
+L'équation de Bellman pour un état $$s$$ est donnée par :
+
+$$
+V^*(s) = \max_a \left( \sum_{s'} P(s' | s, a) \left[ r(s, a, s') + \gamma V^*(s') \right] \right)
+$$
+
+Pour l'état initial $$S$$, l'équation de Bellman devient :
+
+$$
+V^*(S) = \max \left( 0 + 0.9 V^*(0), -1 + 0.9 V^*(-1) \right)
+$$
+
+Si $$V^*(0) \approx 8$$ et $$V^*(-1) \approx -2$$, alors :
+
+$$
+V^*(S) = \max \left( 0 + 0.9 \times 8, -1 + 0.9 \times (-2) \right) = \max(7.2, -2.8) = 7.2
+$$
+
+**d) Environnement stochastique :**
+
+L'équation de Bellman modifiée pour tenir compte de la probabilité d'un mouvement aléatoire :
+
+$$
+V^*(s) = \max_a \left( 0.8 \sum_{s'} P(s' | s, a) \left[ r(s, a, s') + \gamma V^*(s') \right] + 0.2 \sum_{\text{aléatoire}} P(s' | s, a_{\text{aléatoire}}) \left[ r(s, a_{\text{aléatoire}}, s') + \gamma V^*(s') \right] \right)
+$$
+
+Ces équations sont maintenant correctement formatées en LaTeX, entourées de doubles signes dollar ($$) pour assurer leur rendu approprié.
