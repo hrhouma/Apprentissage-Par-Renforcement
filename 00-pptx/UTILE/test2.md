@@ -1,5 +1,26 @@
+### **EXAMEN MI-SESSION : APPRENTISSAGE PAR RENFORCEMENT**
+
+---
+
+### **Barème global :**
+
+L'examen est noté sur **100 points** répartis comme suit :
+
+- **Partie 1 : Questions à choix multiples** (20 points)
+  - 5 questions à 4 points chacune.
+  
+- **Partie 2 : Questions à réponse courte** (30 points)
+  - 5 questions à 6 points chacune.
+  
+- **Partie 3 : Problème pratique 1** (20 points)
+  - Sous-questions avec des points attribués en fonction des calculs et explications.
+  
+- **Partie 4 : Problème pratique 2** (30 points)
+  - Mises à jour de Q-table et raisonnement détaillé.
+
+
 -----------
-# Partie 1 de l'examen : Questions à choix multiples (5 points chacune)
+# Partie 1 de l'examen : Questions à choix multiples 
 -----------
 
 ### 1. Qu'est-ce qu'un Processus de Décision Markovien (MDP) ?
