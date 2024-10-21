@@ -1,5 +1,5 @@
 -----------
-# Partie 1 : Questions à choix multiples (5 points chacune)
+# Partie 1 de l'examen : Questions à choix multiples (5 points chacune)
 -----------
 
 ### 1. Qu'est-ce qu'un Processus de Décision Markovien (MDP) ?
@@ -56,7 +56,7 @@
 
 
 -----------
-# Partie 2 : Questions à réponse courte (10 points chacune)
+# Partie 2 de l'examen: Questions à réponse courte (10 points chacune)
 -----------
 
 ### 6. Expliquez la différence entre un environnement dynamique et un environnement statique en apprentissage par renforcement.
@@ -75,7 +75,7 @@
     
 
 -----------
-# Partie 3 : Problème pratique 
+# Partie 3 de l'examen : Problème pratique 1
 -----------
 
 ###  11. Considérez le MDP suivant représentant un petit labyrinthe :
@@ -102,9 +102,10 @@ S est l'état initial, G est l'état but (récompense +10), les cases marquées 
 
 
 
+-----------
+# Partie 4 de l'examen : Problème pratique 2
+-----------
 
-
-# Examen : Mise à jour de la Q-table
 
 ## Contexte
 Dans cet exercice, vous allez utiliser les concepts de **Q-learning** pour mettre à jour une Q-table en fonction des décisions prises par un agent évoluant dans un environnement de grille (Grid World). L'agent devra apprendre une **politique cible** en explorant cet environnement.
