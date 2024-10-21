@@ -80,19 +80,19 @@ L'examen est noté sur **100 points** répartis comme suit :
 # Partie 2 de l'examen: Questions à réponse courte (10 points chacune)
 -----------
 
-### 6. Expliquez la différence entre un environnement dynamique et un environnement statique en apprentissage par renforcement.
+#### 6. Expliquez la différence entre un environnement dynamique et un environnement statique en apprentissage par renforcement.
    
 
-### 7. Décrivez l'approche ε-greedy en apprentissage par renforcement. Pourquoi est-elle utilisée ?
+#### 7. Décrivez l'approche ε-greedy en apprentissage par renforcement. Pourquoi est-elle utilisée ?
    
 
-### 8. Qu'est-ce qu'un état absorbant dans un MDP ? Donnez un exemple.
+#### 8. Qu'est-ce qu'un état absorbant dans un MDP ? Donnez un exemple.
     
 
-### 9. Expliquez la différence entre une stratégie (policy) et une stratégie optimale en apprentissage par renforcement.
+#### 9. Expliquez la différence entre une stratégie (policy) et une stratégie optimale en apprentissage par renforcement.
     
 
-### 10. Décrivez brièvement l'algorithme d'itération de valeur (value iteration). Quel est son objectif principal ?
+#### 10. Décrivez brièvement l'algorithme d'itération de valeur (value iteration). Quel est son objectif principal ?
     
 
 -----------
