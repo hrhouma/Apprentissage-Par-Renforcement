@@ -274,6 +274,7 @@ Après avoir mis à jour la valeur de **Q(S1, droite)**, l'agent continue à se 
 **Question :** Mettez à jour la valeur de **Q(S2, droite)** en appliquant à nouveau vos connaissances du Q-learning. Référez-vous à vos notes de cours pour effectuer cette mise à jour.
 
 - **Alpha** (taux d'apprentissage) : 0.1
+- **discount γ** : 0.1
 - **Récompenses** : Toutes les récompenses sont de **-1**, sauf pour les états terminaux où les récompenses sont **-10** et **+10**.
 - **Bruit** : Aucun bruit.
 
