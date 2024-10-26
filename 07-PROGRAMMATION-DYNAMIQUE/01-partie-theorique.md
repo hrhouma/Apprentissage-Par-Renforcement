@@ -63,6 +63,21 @@ $$
 \pi'(s) = \text{argmax}_a \sum_{s'} P(s'|s, a) \left[ R(s, a, s') + \gamma V_{\pi}(s') \right]
 $$
 
+Pour corriger l'équation mal affichée, voici la version correcte :
+
+$$
+\pi'(s) = \text{argmax}_a \sum_{s'} P(s'|s, a) \left[ R(s, a, s') + \gamma V_{\pi}(s') \right]
+$$
+
+### Explication
+
+- **$$\pi'(s)$$** : Représente la nouvelle politique améliorée pour l'état $$s$$.
+- **$$\text{argmax}_a$$** : Indique que l'on choisit l'action $$a$$ qui maximise l'expression suivante.
+- **$$\sum_{s'} P(s'|s, a)$$** : Somme sur tous les états suivants $$s'$$, pondérée par la probabilité de transition $$P(s'|s, a)$$.
+- **$$ R(s, a, s') + \gamma V_{\pi}(s') $$\** : Représente la récompense immédiate $$R(s, a, s')$$ plus la valeur actualisée de l'état suivant $$V_{\pi}(s')$$, où $$\gamma$$ est le facteur de réduction des récompenses futures.
+
+
+
 #### 3. Itération de politique (Policy Iteration)
 Combine les étapes d’évaluation et d’amélioration de politique jusqu'à convergence vers une politique optimale.
 
