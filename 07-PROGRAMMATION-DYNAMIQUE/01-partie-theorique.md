@@ -208,3 +208,34 @@ Q(S_t, A_t) \leftarrow (1 - \alpha) Q(S_t, A_t) + \alpha \left( R_{t+1} + \gamma
 $$
 
 
+
+# Annexe 2 
+
+L'équation donnée est une formule pour l'**amélioration de la politique** en programmation dynamique et apprentissage par renforcement. Elle exprime la façon d’optimiser une politique, notée ici \( \pi'(s) \), en choisissant la meilleure action dans un état donné \( s \) pour maximiser les récompenses futures attendues.
+
+### Équation
+$$
+\pi'(s) = \text{argmax}_a \sum_{s'} P(s'|s, a) \left[ R(s, a, s') + \gamma V_{\pi}(s') \right]
+$$
+
+### Explication des Termes
+
+1. **\( \pi'(s) \)** : Cette notation représente la politique améliorée, ou la nouvelle politique, pour l'état \( s \). Elle détermine quelle action prendre dans cet état pour obtenir la meilleure récompense future.
+
+2. **\( \text{argmax}_a \)** : Cela signifie que nous choisissons l’action \( a \) qui maximise l’expression à droite. En d'autres termes, on sélectionne l'action qui donne la valeur la plus élevée.
+
+3. **\( \sum_{s'} \)** : C'est une somme sur tous les états possibles \( s' \) atteignables depuis l'état actuel \( s \) lorsque l'action \( a \) est prise. Elle permet de calculer la récompense totale attendue, en prenant en compte toutes les transitions possibles vers un nouvel état.
+
+4. **\( P(s'|s, a) \)** : C'est la probabilité de passer à l'état \( s' \) en partant de l'état \( s \) après avoir pris l'action \( a \). Cette probabilité modélise la dynamique de l'environnement, c'est-à-dire la façon dont les actions influencent les transitions entre états.
+
+5. **\( R(s, a, s') \)** : C'est la récompense immédiate reçue pour être passé de l'état \( s \) à l'état \( s' \) en prenant l'action \( a \). Cette récompense aide à évaluer si cette transition est bénéfique.
+
+6. **\( \gamma \)** : C'est le facteur de discount (ou d'actualisation), compris entre 0 et 1, qui détermine l'importance des récompenses futures. Un \( \gamma \) proche de 1 signifie que les récompenses futures sont prises en compte presque autant que les récompenses immédiates, tandis qu'un \( \gamma \) proche de 0 signifie que seules les récompenses immédiates sont valorisées.
+
+7. **\( V_{\pi}(s') \)** : C'est la valeur de l'état \( s' \) sous la politique actuelle \( \pi \). Cette valeur représente la récompense totale espérée en suivant la politique \( \pi \) à partir de l'état \( s' \).
+
+### Interprétation
+
+Cette équation montre comment on peut calculer une **politique améliorée \( \pi' \)** en choisissant, pour chaque état \( s \), l’action qui maximise la **valeur totale attendue**. Cette valeur totale est une combinaison de la récompense immédiate et de la récompense future escomptée, pondérée par les probabilités de transition et actualisée par \( \gamma \).
+
+En résumé, l'équation cherche l’action optimale pour chaque état, en prenant en compte non seulement les récompenses immédiates, mais aussi les valeurs futures de tous les états possibles atteignables en fonction des probabilités de transition.
