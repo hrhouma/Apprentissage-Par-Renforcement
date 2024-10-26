@@ -168,3 +168,43 @@ Ce cours couvre :
 
 > **Retour à la [Table des matières](#table-des-matières)**
 
+
+# Annexe - Équations refactorisées avec \(1 - \alpha\)
+
+1. **Mise à jour de la Valeur d'État (TD)**
+
+L'équation standard de mise à jour de la valeur d'état est :
+$$
+V(S_t) \leftarrow V(S_t) + \alpha \left( R_{t+1} + \gamma V(S_{t+1}) - V(S_t) \right)
+$$
+
+Refactorisée avec \(1 - \alpha\) :
+$$
+V(S_t) \leftarrow (1 - \alpha) V(S_t) + \alpha \left( R_{t+1} + \gamma V(S_{t+1}) \right)
+$$
+
+2. **SARSA (State-Action-Reward-State-Action)**
+
+L'équation SARSA pour la mise à jour de \(Q\)-valeur est :
+$$
+Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left( R_{t+1} + \gamma Q(S_{t+1}, A_{t+1}) - Q(S_t, A_t) \right)
+$$
+
+Refactorisée avec \(1 - \alpha\) :
+$$
+Q(S_t, A_t) \leftarrow (1 - \alpha) Q(S_t, A_t) + \alpha \left( R_{t+1} + \gamma Q(S_{t+1}, A_{t+1}) \right)
+$$
+
+3. **Q-Learning**
+
+L'équation de Q-Learning pour la mise à jour de \(Q\)-valeur est :
+$$
+Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left( R_{t+1} + \gamma \max_{a} Q(S_{t+1}, a) - Q(S_t, A_t) \right)
+$$
+
+Refactorisée avec \(1 - \alpha\) :
+$$
+Q(S_t, A_t) \leftarrow (1 - \alpha) Q(S_t, A_t) + \alpha \left( R_{t+1} + \gamma \max_{a} Q(S_{t+1}, a) \right)
+$$
+
+
