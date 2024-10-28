@@ -1,4 +1,4 @@
-# Cours : Les Problèmes de Bandits pour Débutants
+# Cours : Les Problèmes de Bandits 
 
 ---
 
