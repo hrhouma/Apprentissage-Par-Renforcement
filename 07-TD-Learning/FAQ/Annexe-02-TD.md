@@ -1,4 +1,8 @@
-Pour clarifier les différences entre TD(0), TD(1), TD(2), et Q-Learning, voici un résumé simplifié des concepts :
+------------------------
+# Introduction: 
+-------------------------
+
+Pour clarifier les différences entre TD(0), TD(1), TD(2), et Q-Learning, je vous présente un résumé simplifié des concepts :
 
 ### Comprendre les méthodes TD(n) (Temporal Difference Learning)
 
