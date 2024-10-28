@@ -47,7 +47,7 @@ La reformulation en (1 - alpha) des équations de mise à jour sert à clarifier
 
 1. **Mise en perspective de l'impact de l’apprentissage** :
    - Dans les équations originales, on voit surtout la composante ajoutée grâce à \(\alpha\), mais on ne voit pas explicitement ce qui arrive à la valeur déjà apprise. En reformulant avec \(1 - \alpha\), on montre directement la part de l'information précédente qui est conservée.
-   - Par exemple, dans \(Q(s, a) \leftarrow (1 - \alpha) Q(s, a) + \alpha \times \left( r + \gamma \times \max_{a'} Q(s', a') \right)\), la partie \((1 - \alpha) Q(s, a)\) montre combien de l’ancienne valeur \(Q(s, a)\) est gardée.
+   - Par exemple, dans $$ Q(s, a) \leftarrow (1 - \alpha) Q(s, a) + \alpha \times \left( r + \gamma \times \max_{a'} Q(s', a') \right) $$, la partie \((1 - \alpha) Q(s, a)\) montre combien de l’ancienne valeur \(Q(s, a)\) est gardée.
 
 2. **Rendre plus intuitif le rôle de \(\alpha\)** :
    - La reformulation aide à visualiser \(\alpha\) comme un facteur de « confiance » dans la nouvelle information par rapport à l’ancienne. Par exemple :
@@ -73,7 +73,7 @@ La reformulation en \(1 - \alpha\) des équations de mise à jour sert à clarif
 
 1. **Mise en perspective de l'impact de l’apprentissage** :
    - Dans les équations originales, on voit surtout la composante ajoutée grâce à \(\alpha\), mais on ne voit pas explicitement ce qui arrive à la valeur déjà apprise. En reformulant avec \(1 - \alpha\), on montre directement la part de l'information précédente qui est conservée.
-   - Par exemple, dans \(Q(s, a) \leftarrow (1 - \alpha) Q(s, a) + \alpha \times \left( r + \gamma \times \max_{a'} Q(s', a') \right)\), la partie \((1 - \alpha) Q(s, a)\) montre combien de l’ancienne valeur \(Q(s, a)\) est gardée.
+   - Par exemple, dans $$ Q(s, a) \leftarrow (1 - \alpha) Q(s, a) + \alpha \times \left( r + \gamma \times \max_{a'} Q(s', a') \right) $$, la partie \((1 - \alpha) Q(s, a)\) montre combien de l’ancienne valeur \(Q(s, a)\) est gardée.
 
 2. **Rendre plus intuitif le rôle de \(\alpha\)** :
    - La reformulation aide à visualiser \(\alpha\) comme un facteur de « confiance » dans la nouvelle information par rapport à l’ancienne. Par exemple :
