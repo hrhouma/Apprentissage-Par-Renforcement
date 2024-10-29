@@ -33,3 +33,42 @@ Revenons à notre jeu. Disons que tu prends une décision en pensant aux **réco
 ---
 
 Ces concepts sont comme des façons différentes de décider comment jouer : soit en apprenant de tes propres choix, soit en observant d'autres joueurs, ou en regardant plusieurs tours à l’avance pour bien planifier tes actions.
+
+-----------------------------------
+##### Annexe 01  - **table comparative simplifiée** entre les méthodes Bellman, Q-Learning, Monte Carlo et TD-Learning :
+-----------------------------------
+
+
+### Différences entre On-policy et Off-policy :
+
+- **On-policy** : l'agent apprend uniquement de sa propre stratégie, il suit ce qu'il fait actuellement et adapte ses choix en fonction de son expérience immédiate.
+- **Off-policy** : l'agent peut apprendre d'actions optimales qu'il **ne suit pas nécessairement en ce moment**, lui permettant de converger vers une stratégie optimale sans limiter son apprentissage à ses propres décisions actuelles.
+
+
+
+| Méthode         | Type de Politique | Explication Simplifiée                                                                                                   |
+|-----------------|-------------------|---------------------------------------------------------------------------------------------------------------------------|
+| **Bellman**     | On-policy         | Utilise une stratégie suivie pour chaque état en actualisant les valeurs de façon immédiate. Idéal pour des solutions déterministes. |
+| **Q-Learning**  | Off-policy        | Apprend une stratégie optimale en observant toutes les actions possibles sans se limiter à la stratégie actuelle. |
+| **Monte Carlo** | On-policy         | Évalue la stratégie actuelle en regardant l’ensemble des récompenses reçues à la fin de chaque épisode (approche « tout ou rien »). |
+| **TD-Learning** | On-policy         | Met à jour la valeur d’un état en se basant sur des estimations immédiates, étape par étape, pour la stratégie suivie.    |
+
+### Explication des Concepts :
+
+1. **Bellman (On-policy)** :
+   - Utilise la stratégie en cours pour calculer les valeurs optimales d'un état en actualisant immédiatement selon les choix actuels.
+   - Utile lorsque l’agent suit une **stratégie fixe** pour chaque état.
+
+2. **Q-Learning (Off-policy)** :
+   - L'agent **n’a pas besoin de suivre** strictement la stratégie qu’il est en train d’apprendre. Il observe **toutes les meilleures actions possibles**, même si elles ne sont pas suivies.
+   - Il se concentre sur la recherche de la stratégie optimale **à long terme**.
+
+3. **Monte Carlo (On-policy)** :
+   - Utilise l'expérience complète d’un épisode (du début à la fin) pour évaluer la stratégie actuelle.
+   - Approprié pour des situations où il est possible d'attendre la fin d’un épisode pour voir les récompenses cumulées.
+
+4. **TD-Learning (On-policy)** :
+   - Met à jour les valeurs étape par étape au fur et à mesure de l'expérience sans attendre la fin de l'épisode, en s'appuyant sur la stratégie actuelle.
+   - Idéal pour les situations où les épisodes sont longs, mais l'agent doit adapter sa stratégie au fur et à mesure. 
+
+
