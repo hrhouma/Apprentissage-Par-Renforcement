@@ -72,3 +72,34 @@ Ces concepts sont comme des façons différentes de décider comment jouer : soi
    - Idéal pour les situations où les épisodes sont longs, mais l'agent doit adapter sa stratégie au fur et à mesure. 
 
 
+
+-----------------------------------
+##### Annexe 02  - Affiner la comparaison et introduire TD(0) ...TD(n):
+-----------------------------------
+
+### Explication supplémentaire :
+
+- **TD(0)** : Met à jour l'estimation en utilisant uniquement la **récompense immédiate** et la **valeur de l'état suivant**, ce qui en fait une méthode très rapide. Cependant, elle manque parfois de précision, car elle ne prend pas en compte des récompenses à plus long terme.
+
+- **TD(1) et TD(2)** : Regardent respectivement une ou deux étapes en avant pour une vision plus large, mais cela **augmente la complexité**. Ces méthodes sont utiles pour des épisodes courts ou pour des décisions où il est important d’avoir une vue d’ensemble.
+
+- **Q-Learning** : Méthode **Off-policy** qui permet d’apprendre une **stratégie optimale** en considérant toutes les actions possibles. Idéal pour les environnements où l'agent veut maximiser les récompenses à long terme. 
+
+
+
+| **Méthode**      | **Type**          | **Mise à Jour**                                        | **Description Simplifiée**                                  | **Avantages**                          | **Inconvénients**                            |
+|------------------|-------------------|--------------------------------------------------------|-------------------------------------------------------------|----------------------------------------|-----------------------------------------------|
+| **TD(0)**        | On-policy         | Basée sur **l'état suivant immédiat**                  | Utilise la **récompense actuelle** et la **valeur du prochain état** pour ajuster la valeur actuelle. | Rapide, calcule avec un seul pas      | Ne considère pas les récompenses futures lointaines |
+| **TD(1)**        | N-step            | Basée sur l’état suivant avec **plusieurs étapes**     | Additionne plusieurs récompenses successives sur plusieurs étapes, se rapproche des méthodes Monte Carlo. | Meilleur pour les **épisodes courts**   | Complexité accrue avec chaque étape supplémentaire  |
+| **TD(2)**        | N-step            | Prend en compte deux étapes de **récompenses futures** | Compromis entre TD(0) et les méthodes qui regardent plus loin. | Équilibre entre précision et vitesse   | Peut être lent avec trop d’étapes                |
+| **Q-Learning**   | Off-policy        | Basée sur l’état-action avec les **meilleures actions futures** | Calcule une **stratégie optimale** en testant plusieurs actions, sans se limiter à l'action actuelle. | Optimise les décisions à long terme    | Mémoire et calculs plus lourds                 |
+
+--------------------------------
+### En résumé :
+--------------------------------
+
+- **TD(0)** est très rapide mais se limite à l’information immédiate.
+- **TD(1) et TD(2)** offrent plus de vision sur l’avenir, mais au coût de complexité accrue.
+- **Q-Learning** s'appuie sur des informations **Off-policy**, optimisant les décisions au long terme en testant les meilleures actions possibles, ce qui en fait un excellent choix pour des stratégies de planification globales. 
+
+Chaque méthode présente un compromis entre **vitesse, précision, et quantité de mémoire utilisée**, ce qui les rend adaptées à différents types de problèmes d’apprentissage par renforcement.
