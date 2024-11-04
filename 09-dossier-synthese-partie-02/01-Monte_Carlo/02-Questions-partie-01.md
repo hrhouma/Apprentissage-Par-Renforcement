@@ -1,6 +1,5 @@
-------------------
-# Partie-01
-------------------
+# **Partie-01 : Questions Directes**
+
 
 1. *Définissez la méthode de Monte Carlo dans le contexte de l'apprentissage par renforcement.*
 2. *Quelle est la différence entre la méthode Every-Visit et la méthode First-Visit pour estimer la fonction de valeur d’un état ?*
