@@ -23,7 +23,7 @@
    - *Sous-question : Quels types de situations bénéficient particulièrement de cette caractéristique des méthodes TD ?*
 
 2. **Expliquez le rôle du taux d'apprentissage (alpha) dans les algorithmes TD comme SARSA et Q-Learning.**
-   - *Sous-question : Comment un choix inapproprié de $\\alpha$ pourrait-il affecter la convergence de l'algorithme ?*
+   - Sous-question : Comment un choix inapproprié de $\\alpha$ pourrait-il affecter la convergence de l'algorithme ?
 
 3. **Dans l’algorithme Q-Learning, pourquoi utilise-t-on la valeur Q maximale de l’état suivant pour mettre à jour la valeur Q actuelle ?**
    - *Sous-question : Quels sont les effets d’utiliser la valeur maximale par rapport à une valeur moyenne ?*
