@@ -7,9 +7,9 @@
 4. *Qu'est-ce que la politique epsilon-greedy et comment aide-t-elle à équilibrer exploration et exploitation ?*
 5. *Quelle est l'équation de mise à jour de la fonction de valeur pour la méthode Every-Visit ?*
 
-------------------
-# Partie-02 -  Questions de réflexion
-------------------
+---
+
+# **Partie-02 : Questions de Réflexion**
 
 
 1. *Expliquez en quoi l'apprentissage hors politique diffère de l'apprentissage sur politique et pourquoi l'échantillonnage d'importance est utilisé.*
