@@ -14,6 +14,6 @@
 
 1. *Expliquez en quoi l'apprentissage hors politique diffère de l'apprentissage sur politique et pourquoi l'échantillonnage d'importance est utilisé.*
 2. *Quel est le rôle du taux d'apprentissage (alpha) dans la mise à jour de la fonction de valeur d'action (Q) lors d'un contrôle Monte Carlo hors politique ?*
-3. *Comment le choix de la valeur de $\\epsilon$ influence-t-il le comportement de la politique epsilon-greedy ?*
+3. *Comment le choix de la valeur de $\epsilon$ influence-t-il le comportement de la politique epsilon-greedy ?*
 4. *Pourquoi les méthodes de Monte Carlo nécessitent-elles l’observation d’épisodes entiers ?*
 5. *Dans l’algorithme de contrôle Monte Carlo (sur politique), comment la politique optimale est-elle obtenue à partir de $Q(s, a)$ ?*
