@@ -10,10 +10,10 @@
    - *Sous-question : Pourquoi SARSA est-il considéré comme une méthode sur politique et Q-Learning comme une méthode hors politique ?*
 
 4. **Qu’est-ce qu’une politique epsilon-greedy et comment est-elle utilisée dans les algorithmes de TD ?**
-   - *Sous-question : Que se passerait-il si $\\epsilon$ était très faible ou très élevé dans un algorithme SARSA ?*
+   - Sous-question : Que se passerait-il si $\\epsilon$ était très faible ou très élevé dans un algorithme SARSA ?
 
 5. **Quelle est la règle de mise à jour dans l’algorithme SARSA ?**
-   - *Sous-question : Que signifie le terme $Q(S_{t+1}, A_{t+1})$ dans cette règle ?*
+   - Sous-question : Que signifie le terme $Q(S_{t+1}, A_{t+1})$ dans cette règle ?
 
 ---
 
@@ -32,4 +32,4 @@
    - *Sous-question : Donnez un exemple de situation où SARSA et Q-Learning produiraient des comportements différents pour un même environnement.*
 
 5. **Comment l’utilisation d’une politique epsilon-greedy dans SARSA et Q-Learning aide-t-elle à résoudre le dilemme exploration/exploitation ?**
-   - *Sous-question : Pourquoi pourrait-il être nécessaire de réduire progressivement $\\epsilon$ dans un contexte d’apprentissage à long terme ?*
+   - Sous-question : Pourquoi pourrait-il être nécessaire de réduire progressivement $\\epsilon$ dans un contexte d’apprentissage à long terme ?
