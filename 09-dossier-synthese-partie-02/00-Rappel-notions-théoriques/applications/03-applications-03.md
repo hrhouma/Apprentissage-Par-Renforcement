@@ -1,3 +1,12 @@
+---
+
+**Article 3 : Classification des Méthodes d'Apprentissage par Renforcement selon l'Optimisation de la Politique et de la Fonction de Valeur**
+
+**Objectif :**  
+Cet article classifie les méthodes d'apprentissage par renforcement selon leur principal objectif d'optimisation : soit l'optimisation de la fonction de valeur (comme TD(0), TD(1), TD(2), TD(n), Monte Carlo), soit l'optimisation de la politique (SARSA). Q-Learning est abordé comme une méthode hybride qui optimise indirectement la politique tout en maximisant la fonction de valeur. Ce classement permettra de sélectionner la méthode la plus pertinente selon les objectifs de prédiction ou d'amélioration de la politique dans des environnements variés.
+
+
+
 Voici une classification des différentes méthodes selon leur objectif principal : **optimisation de la fonction de valeur** ou **optimisation de la politique**. Cela vous permettra de mieux comprendre chaque méthode dans le contexte de l’apprentissage par renforcement et de son rôle dans l'amélioration de la performance de l'agent.
 
 | Méthode         | Type d'optimisation             | Description                                                                                   |
