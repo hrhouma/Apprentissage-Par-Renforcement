@@ -1,20 +1,13 @@
+**Article 2 : 🌟 Explorer les Types d'Apprentissage pour Améliorer Prédiction et Optimisation 🌍🤖**
 
----
+**🎯 Objectif :**  
+Cet article ambitionne de clarifier et classer les méthodes TD(0), TD(1), TD(2), TD(n), Monte Carlo, SARSA et Q-Learning 🎓 selon leur type d’apprentissage : en ligne 🔄, hors ligne 💾, sur-politique 🛡️, et hors-politique 🚀. En explorant les différences fondamentales entre ces méthodes, nous découvrons comment elles répondent aux exigences variées d’un environnement en évolution et comment choisir celle qui maximisera la performance selon vos objectifs d'optimisation. 💡✨
 
-**Article 2 : Comprendre les Types d'Apprentissage pour les Méthodes de Prédiction et d'Optimisation**
+------------
+------------
+------------
 
-**Objectif :**  
-Cet article vise à clarifier et classer les méthodes d'apprentissage TD(0), TD(1), TD(2), TD(n), Monte Carlo, SARSA, et Q-Learning selon leur type d'apprentissage : en ligne, hors ligne, sur-politique, et hors-politique. Une meilleure compréhension des types d'apprentissage utilisés avec chaque méthode permettra de choisir la méthode appropriée en fonction de la nature de l'environnement et des objectifs d'optimisation.
 
-
-----------------
-# Objectif: 
-----------------
-
-- Clarifier et classifier les différences entre les méthodes TD, SARSA, Q-Learning, et Monte Carlo selon les types d’apprentissage
-(en ligne, hors ligne, etc.), 
-- **Je vous propose une table qui organise chaque méthode dans un contexte d’apprentissage spécifique.** 
-- *Cela nous aidera à comprendre quel type d’apprentissage est approprié pour chaque méthode en fonction de sa nature et de son utilisation.*
 
 | Méthode         | Type d'apprentissage       | Caractéristiques                                          | Cas d'utilisation                                         |
 |-----------------|----------------------------|-----------------------------------------------------------|-----------------------------------------------------------|
