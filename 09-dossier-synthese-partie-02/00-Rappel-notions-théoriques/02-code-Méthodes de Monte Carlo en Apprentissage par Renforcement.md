@@ -98,9 +98,8 @@ for state, values in action_value_function.items():
 
 ## Conclusion
 
-Les méthodes de Monte Carlo sont des techniques puissantes pour l’apprentissage par ren
-
-forcement, en particulier lorsque l’on ne dispose pas d’un modèle de l’environnement. Les algorithmes de Monte Carlo permettent d’apprendre des politiques optimales sur la base de retours observés dans des épisodes complets, offrant ainsi une alternative intéressante aux méthodes basées sur les différences temporelles.
+Les méthodes de Monte Carlo sont des techniques puissantes pour l’apprentissage par renforcement, en particulier *lorsque l’on ne dispose pas d’un modèle de l’environnement.*
+- Les algorithmes de Monte Carlo permettent d’apprendre des politiques optimales sur la base de retours observés dans des épisodes complets, offrant ainsi une alternative intéressante aux méthodes basées sur les différences temporelles.
 
 
 
