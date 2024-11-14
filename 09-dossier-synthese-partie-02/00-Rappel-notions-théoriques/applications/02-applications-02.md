@@ -1,5 +1,5 @@
 ----------------
-# Ojectif: 
+# Objectif: 
 ----------------
 
 - Clarifier et classifier les différences entre les méthodes TD, SARSA, Q-Learning, et Monte Carlo selon les types d’apprentissage
