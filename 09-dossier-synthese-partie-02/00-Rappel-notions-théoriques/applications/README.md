@@ -36,7 +36,7 @@
 - *Q-Learning* : Plus exploratoire, adapté aux situations nécessitant une optimisation agressive. Exemple en santé : dans le cas de traitements personnalisés ou de thérapies expérimentales, Q-Learning peut explorer des options plus risquées pour maximiser les chances de succès chez les patients en situation critique.
 
 -----
-- *TD(n)* et *Monte Carlo* : Lorsque \( n \to \infty \), TD(n) se rapproche de Monte Carlo car il prend en compte toutes les étapes d’un épisode complet. Monte Carlo est donc considéré comme l’équivalent de TD(n) avec \( n \) tendant vers l'infini. Monte Carlo se distingue par sa précision accrue, mais il nécessite que chaque épisode soit complet avant d'effectuer une mise à jour, ce qui peut ralentir le processus d'apprentissage.
+- *TD(n)* et *Monte Carlo* : Lorsque $$ n \to \infty $$, TD(n) se rapproche de Monte Carlo car il prend en compte toutes les étapes d’un épisode complet. Monte Carlo est donc considéré comme l’équivalent de TD(n) avec \( n \) tendant vers l'infini. Monte Carlo se distingue par sa précision accrue, mais il nécessite que chaque épisode soit complet avant d'effectuer une mise à jour, ce qui peut ralentir le processus d'apprentissage.
 
 -----
 - *Monte Carlo* : Requiert un épisode complet pour mettre à jour les estimations, ce qui permet d’obtenir une vision plus globale des effets cumulatifs des actions.
