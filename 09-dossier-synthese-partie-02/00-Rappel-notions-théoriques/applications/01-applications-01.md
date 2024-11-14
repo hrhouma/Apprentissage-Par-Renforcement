@@ -1,4 +1,11 @@
-# Exemples d'applications
+**Article 1 : Applications Pratiques des Méthodes d'Apprentissage par Renforcement dans Divers Domaines**
+
+**Objectif :**  
+Cet article explore des exemples concrets de méthodes d'apprentissage par renforcement, notamment TD(0), TD(1), TD(2), TD(n), Monte Carlo, SARSA, et Q-Learning, dans différents contextes comme la météorologie, la finance, et la santé. Chaque méthode est appliquée dans des environnements spécifiques, selon leur besoin de stabilité, de rapidité de mise à jour, ou de prise de risque. Cette comparaison permettra aux lecteurs de mieux comprendre comment choisir la méthode adaptée à chaque cas d'utilisation.
+
+
+
+
 
 | Méthode         | Caractéristiques                                        | Cas d'utilisation                                         | Exemple en Météo                                                | Exemple en Finance                         | Exemple en Santé                                         |
 |-----------------|---------------------------------------------------------|-----------------------------------------------------------|------------------------------------------------------------------|-------------------------------------------|-----------------------------------------------------------|
