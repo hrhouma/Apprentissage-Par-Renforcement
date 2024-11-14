@@ -1,8 +1,13 @@
 
-*Ces exemples montrent bien les différences entre chaque méthode et sont exécutables en Python. Assurez-vous que `states` et `actions` sont bien définis avant d’exécuter chaque fonction.*
+### **Comparaison Pratique des Méthodes de Mise à Jour : TD(0), TD(1), TD(2), TD(n), SARSA et Q-Learning en Python**
+
+
+
 
 1. **TD(0), TD(1), TD(2), TD(n)** : J'ai ajouté des commentaires pour indiquer la logique de mise à jour pour chaque méthode.
 2. **SARSA et Q-Learning** : Ajout de la définition de `actions` pour éviter les erreurs lors de l'exécution.
+
+*Ces exemples montrent bien les différences entre chaque méthode et sont exécutables en Python. Assurez-vous que `states` et `actions` sont bien définis avant d’exécuter chaque fonction.*
 
 -----------
 # 1. TD(0) - Mise à jour avec une seule étape
