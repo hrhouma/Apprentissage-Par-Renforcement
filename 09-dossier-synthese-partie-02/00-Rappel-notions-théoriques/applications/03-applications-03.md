@@ -1,13 +1,9 @@
----
+**Article 3 : 🎯 Classification des Méthodes d'Apprentissage par Renforcement pour Optimiser la Politique et la Fonction de Valeur 🔍**
 
-**Article 3 : Classification des Méthodes d'Apprentissage par Renforcement selon l'Optimisation de la Politique et de la Fonction de Valeur**
-
-**Objectif :**  
-Cet article classifie les méthodes d'apprentissage par renforcement selon leur principal objectif d'optimisation : soit l'optimisation de la fonction de valeur (comme TD(0), TD(1), TD(2), TD(n), Monte Carlo), soit l'optimisation de la politique (SARSA). Q-Learning est abordé comme une méthode hybride qui optimise indirectement la politique tout en maximisant la fonction de valeur. Ce classement permettra de sélectionner la méthode la plus pertinente selon les objectifs de prédiction ou d'amélioration de la politique dans des environnements variés.
+**🌟 Objectif :**  
+Cet article propose une classification des méthodes d'apprentissage par renforcement en fonction de leur objectif principal d'optimisation 🌐 : optimiser la fonction de valeur 💰 (TD(0), TD(1), TD(2), TD(n), Monte Carlo) ou optimiser la politique 🛤️ (SARSA). Quant au Q-Learning, il est présenté comme une méthode hybride 🔄, optimisant la politique de manière indirecte tout en maximisant la fonction de valeur. Grâce à ce classement, vous pourrez choisir la méthode la plus appropriée pour des objectifs de prédiction ou d'amélioration de la politique dans des environnements variés 🧩✨.
 
 
-
-Voici une classification des différentes méthodes selon leur objectif principal : **optimisation de la fonction de valeur** ou **optimisation de la politique**. Cela vous permettra de mieux comprendre chaque méthode dans le contexte de l’apprentissage par renforcement et de son rôle dans l'amélioration de la performance de l'agent.
 
 | Méthode         | Type d'optimisation             | Description                                                                                   |
 |-----------------|---------------------------------|-----------------------------------------------------------------------------------------------|
