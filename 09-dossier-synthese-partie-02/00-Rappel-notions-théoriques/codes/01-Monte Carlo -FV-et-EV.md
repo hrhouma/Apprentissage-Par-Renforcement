@@ -1,4 +1,4 @@
-# *Monte Carlo *"première visite"* VS *"toutes les visites"*
+# Monte Carlo *"première visite"* VS *"toutes les visites"*
 
 La différence entre **Monte Carlo "première visite"** (first-visit) et **Monte Carlo "toutes les visites"** (every-visit) se trouve dans la manière dont on comptabilise les résultats obtenus au cours des simulations.
 
