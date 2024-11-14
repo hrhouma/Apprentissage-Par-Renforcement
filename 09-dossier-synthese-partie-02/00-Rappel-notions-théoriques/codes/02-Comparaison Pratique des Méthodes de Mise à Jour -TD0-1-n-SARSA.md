@@ -1,5 +1,5 @@
 
-### **Comparaison Pratique des Méthodes de Mise à Jour : TD(0), TD(1), TD(2), TD(n), SARSA et Q-Learning en Python**
+##### **Comparaison Pratique des Méthodes de Mise à Jour : TD(0), TD(1), TD(2), TD(n), SARSA et Q-Learning en Python**
 
 
 
