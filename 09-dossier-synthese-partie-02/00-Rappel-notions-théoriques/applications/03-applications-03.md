@@ -3,6 +3,9 @@
 **🌟 Objectif :**  
 Cet article propose une classification des méthodes d'apprentissage par renforcement en fonction de leur objectif principal d'optimisation 🌐 : optimiser la fonction de valeur 💰 (TD(0), TD(1), TD(2), TD(n), Monte Carlo) ou optimiser la politique 🛤️ (SARSA). Quant au Q-Learning, il est présenté comme une méthode hybride 🔄, optimisant la politique de manière indirecte tout en maximisant la fonction de valeur. Grâce à ce classement, vous pourrez choisir la méthode la plus appropriée pour des objectifs de prédiction ou d'amélioration de la politique dans des environnements variés 🧩✨.
 
+---------
+--------
+-------
 
 
 | Méthode         | Type d'optimisation             | Description                                                                                   |
