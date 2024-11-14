@@ -1,4 +1,4 @@
-Bien sûr, voici les différents bouts de code en Python pour chaque méthode d'apprentissage par différence temporelle (TD), y compris TD(0), TD(1), TD(2), TD(n) ainsi que SARSA et Q-Learning.
+# TD(0), TD(1), TD(2), TD(n), SARSA, Q-Learning.
 
 ### 1. Implémentation de TD(0)
 
