@@ -16,7 +16,7 @@ Ici, **chaque fois que vous voyez l'oiseau bleu au cours de la promenade, vous l
 
 Les deux approches sont utiles selon qu’on veut une estimation basée uniquement sur les premières apparitions ou sur toutes les occurrences.
 
-##### 5. Implémentation en Python
+# Implémentation en Python
 
 ### 5.1 Prédiction Monte Carlo (First-Visit)
 
