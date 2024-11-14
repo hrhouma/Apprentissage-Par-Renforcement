@@ -1,3 +1,20 @@
+# *Monte Carlo *"première visite"* VS *"toutes les visites"*
+
+La différence entre **Monte Carlo "première visite"** (first-visit) et **Monte Carlo "toutes les visites"** (every-visit) se trouve dans la manière dont on comptabilise les résultats obtenus au cours des simulations.
+
+Imaginons que vous êtes dans un parc et que vous voulez savoir la **fréquence des oiseaux bleus** que vous croisez au cours de vos promenades. Parfois, vous repassez plusieurs fois par le même endroit où vous voyez un oiseau bleu, et d'autres fois, vous le voyez pour la première fois.
+
+### Monte Carlo "Première Visite" (first-visit)
+Dans cette approche, **on ne compte que la première fois** qu'on croise un oiseau bleu lors de chaque promenade. Si vous passez plusieurs fois par le même point et voyez l'oiseau bleu plusieurs fois, **seule la première rencontre est comptée**. C’est utile pour obtenir une mesure plus "unique" par promenade, en se concentrant uniquement sur le premier aperçu.
+
+### Monte Carlo "Toutes les Visites" (every-visit)
+Ici, **chaque fois que vous voyez l'oiseau bleu au cours de la promenade, vous le comptez**, même si vous le revoyez en repassant au même endroit. Cela donne une mesure plus détaillée de la fréquence des observations sur toute la promenade, en comptant chaque fois que l'événement se produit.
+
+### En résumé :
+- **Première visite** : On ne tient compte que du premier passage par chaque endroit lors d'une promenade (mesure plus unique).
+- **Toutes les visites** : On compte chaque observation de l'événement, même si c’est au même endroit (mesure plus détaillée).
+
+Les deux approches sont utiles selon qu’on veut une estimation basée uniquement sur les premières apparitions ou sur toutes les occurrences.
 
 ##### 5. Implémentation en Python
 
