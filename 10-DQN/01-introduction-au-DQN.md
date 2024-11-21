@@ -1,3 +1,6 @@
+# Introduction
+----------------
+
 # **1. C’est quoi DQN et pourquoi c’est important ?**
 
 #### **Imagine un jeu vidéo**
