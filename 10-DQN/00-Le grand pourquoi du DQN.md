@@ -52,7 +52,7 @@ DQN apporte une solution élégante à ces problèmes en remplaçant la table Q 
 
 ---
 
-### **4. Une comparaison visuelle simple pour tes étudiants**
+### **4. comparaison**
 
 | **Q-Learning Classique**                | **DQN (Deep Q-Learning Network)**      |
 |-----------------------------------------|----------------------------------------|
