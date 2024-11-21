@@ -19,7 +19,7 @@
 |                               | - Proposition d’améliorations ou d'extensions (hybridation, hyperparamètres optimisés, etc.). | **/5**     |
 |                               | - Originalité dans le choix du problème ou de l’application (exemple : jeux, robotique, etc.).| **/5**     |
 | **5. Présentation et rapport** |                                                                                               | **/10**    |
-|                               | - Rapport bien structuré, avec une introduction, méthodologie, résultats et conclusion.       | **/5**     |
+|                               | - rapport = Guide développeur        | **/5**     |
 |                               | - Qualité de la présentation orale (si applicable) : clarté, gestion du temps, etc.           | **/5**     |
 
 ---
