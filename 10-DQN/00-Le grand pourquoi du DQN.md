@@ -1,4 +1,4 @@
-# Le grand pourquoi du DQN.md
+# Le grand pourquoi du DQN
 
 ### **1. Commençons avec une métaphore : L’agent "aveugle" qui apprend**
 
