@@ -110,7 +110,7 @@ Dans un jeu Atari, chaque **image du jeu** est convertie en entrée pour un rés
   1. La prédiction actuelle des valeurs Q.  
   2. La valeur cible calculée grâce au réseau cible.  
 - Perte utilisée : **Mean Squared Error (MSE)**  
-  > \( \text{Loss} = \frac{1}{N} \sum (\text{Q}_{\text{cible}} - \text{Q}_{\text{prédite}})^2 \)
+  > $$ \text{Loss} = \frac{1}{N} \sum (\text{Q}_{\text{cible}} - \text{Q}_{\text{prédite}})^2 $$
 
 ---
 
