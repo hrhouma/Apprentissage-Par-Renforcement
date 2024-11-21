@@ -29,7 +29,7 @@
 ---
 
 ### **Critères bonus**
-Vous pouvez inclure des points bonus (par exemple, **/5 points supplémentaires**) pour :
+- Points bonus ( **/10 points supplémentaires**) pour :
 - **Résultats exceptionnels ou dépassement des attentes.**
 - **Réponse à des questions complexes pendant la présentation.**
 - **Application à un problème réel ou un dataset inédit.**
