@@ -1,5 +1,4 @@
-# Architecture technique du DQN
-
+# Architecture technique du DQN 
 ---
 
 # **1. Introduction : Comment DQN est structuré ?**
