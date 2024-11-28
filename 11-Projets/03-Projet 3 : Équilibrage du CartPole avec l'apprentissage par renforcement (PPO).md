@@ -1,4 +1,4 @@
-### **Projet 3 : Équilibrage du CartPole avec l'apprentissage par renforcement (PPO)**
+# **Projet 3 : Équilibrage du CartPole avec l'apprentissage par renforcement (PPO)**
 
 #### **Objectif :**
 
