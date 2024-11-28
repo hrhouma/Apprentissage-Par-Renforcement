@@ -90,10 +90,4 @@ Le problème du **CartPole** est un benchmark classique en apprentissage par ren
 3. **Exemples de projets similaires :**
    - Études de cas sur des environnements comme LunarLander et MountainCar.
 
----
 
-#### **Pourquoi ce projet est important :**
-
-Ce projet est une introduction pratique et accessible à l'apprentissage par renforcement. Il combine théorie et application pour démontrer comment l'IA peut résoudre des problèmes de contrôle complexes en apprenant de ses erreurs. C'est une base solide pour des projets plus avancés comme les véhicules autonomes ou la robotique.
-
-Prenez ce projet comme une opportunité d'explorer un domaine fascinant et d'acquérir des compétences précieuses pour l'avenir ! 🎯
