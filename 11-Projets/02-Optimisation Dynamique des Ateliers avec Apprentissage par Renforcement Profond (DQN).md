@@ -1,4 +1,4 @@
-### **Projet : Optimisation Dynamique des Ateliers avec Apprentissage par Renforcement Profond (DQN)**
+# **Projet 02 : Optimisation Dynamique des Ateliers avec Apprentissage par Renforcement Profond (DQN)**
 
 ---
 
