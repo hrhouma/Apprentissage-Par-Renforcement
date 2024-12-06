@@ -104,7 +104,8 @@ Le DQN reçoit en entrée l'état du jeu (image) et prédit les **valeurs Q** po
 
 4. **Récompenses différées :**
    - Le DQN prend en compte les récompenses futures grâce au facteur d'actualisation **γ** :
-     - \( Q(s, a) = R + \gamma \max Q(s', a') \).
+   
+    $$ Q(s, a) = R + \gamma \max Q(s', a') $$
 
 -----------
 # 04 - **Résumé des Concepts Clés**
